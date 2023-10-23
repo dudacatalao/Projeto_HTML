@@ -723,3 +723,22 @@ nav {
     padding-right: 200px;
     padding-bottom: 50px;
 }
+
+.linha{
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+}
+
+.retangulao{
+    margin-top: 30px;
+    background-color: #fcc5e2;
+    width: 1902px;
+    height: 200px;
+}
+
+.maketext{
+    text-align: center;
+    font-size: 60px;
+    margin-top: -170px;
+    margin-bottom: 150px;
+}
