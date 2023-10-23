@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Quicksand:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@1,700&family=Nunito:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
-
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Oleo+Script+Swash+Caps&family=Roboto:wght@100&display=swap');
 
 *{
     margin: 0;
@@ -676,24 +672,30 @@ nav {
 
 .textsobrenos{
     text-align: center;
-    padding-top: 30px;
+  
 }
 
 .textsobrenos{
-    margin-top: -700px;
+    margin-top: 60px;
     text-align: center;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 40px;
+    padding-right: 40px;
     font-size: 30px;
 }
 
 .retangulosb{
-    margin-top: 800px;
+    margin-top: 70px;
     margin-left: 395px;
     border-radius: 10px;
     background-color: white;
     width: 1200px !important;
     height: 700px;
+    margin-bottom: 35px;
+}
+
+.retangulosb {
+    text-align: center;
+    font-size: 30px;
 }
 
 /* makeup */
@@ -726,6 +728,7 @@ nav {
 
 .linha{
     border-bottom: 1px solid grey;
+    margin: 0 80px;
     padding-bottom: 20px;
 }
 
@@ -737,8 +740,41 @@ nav {
 }
 
 .maketext{
+    color: #C0809B;
     text-align: center;
-    font-size: 60px;
+    font-size: 70px;
     margin-top: -170px;
     margin-bottom: 150px;
+    font-family: 'Oleo Script', sans-serif;
 }
+
+.quadrado{
+    display: flex;
+    background-color: white;
+    width: 340px;
+    height: 265px;
+    margin-bottom: 100px;
+    border: solid 1px #DF47AB;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.quadradomake{
+    margin-top: -135px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding-left: 200px;
+    padding-right: 200px;
+   
+}
+
+.quadradomake img{
+    margin-top: 12px;
+}
+
+.inf{
+    font-size: 15px;
+}
+
+
