@@ -9,25 +9,18 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 
-<body>
+<body class="login">
     <header>
         <div class="navbar">
             <div class="menu-container">
-                <i id="menu">
+                <i id="menu1">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M20 7H4" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" />
                         <path d="M20 12H4" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" />
                         <path d="M20 17H4" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" />
                     </svg>
                 </i>
-                <a href="index.html"><img src="logo/logo.png" alt="Logo"></a>
-            </div>
-
-            <div class="searchbar">
-                <input   class="teste" id="search" type="text" name="searchbar" placeholder="O que você procura?">
-                <a href="">
-                    <img src="icons/search.svg" alt="lupa">
-                </a>
+                <a href="index.html"><img src="logo/logo atualizada.png" alt="Logo"></a>
             </div>
            
             <div class="icons">
@@ -70,20 +63,71 @@
                 </i>
             </div>
         </div>
-
-        <div class="linksnav">
-            <nav>
-                <a href="index.html" class"navitens">home</a>
-                <a href="produto.html" class"navitens">produtos</a>
-                <a href="novidades.html" class"navitens">novidades</a>
-                <a href="perfumaria.html" class"navitens">perfumaria</a>
-                <a href="dermocosméticos.html" class"navitens">dermocosméticos</a>
-                <a href="maquiagem.html" class"navitens">maquiagem</a>
-                <a href="sobre nós.html" class"navitens">sobre nós</a>
-                <a href="contato.html" class"navitens">contato</a>
-            </nav>
-        </div>
-        
     </header>
+    <main>
+        <section class="main_contatos">
+            <div class="quadradologin">
+
+                <!-- <div class="titulo2">
+                    <p>Faça seu login</p>
+                </div> -->
+
+                <div class="box">
+                    <form action="">
+                        <fieldset>
+                            <legend> <b>Faça seu Login</b> </legend>
+                            <br>
+
+                            <div class="inputbox">
+                                <input type="text" name="nome" id="nome" class="inputuser" required>
+                                <label for="nome">Nome Completo</label>
+                            </div>
+                            <br>
+                            <div class="inputbox">
+                                <input type="email" name="email" id="email" class="inputuser" required>
+                                <label for="email">Email</label>
+                            </div>
+                            <br>
+                            <div class="inputbox">
+                                <input type="tel" name="telefone" id="telefone" class="inputuser" required>
+                                <label for="telefone">Telefone</label>
+                            </div>
+                            <br>
+                            <div class="inputbox">
+                                <label for="data">Data de Aniversário</label>
+                                <input type="date" name="data" id="data" class="inputuser" required>
+                            </div>
+                            <br>
+                            <div class="inputbox">
+                                <input type="text" name="cidade" id="cidade" class="inputuser" required>
+                                <label for="cidade">Cidade</label>
+                            </div>
+                            <br>
+                            <div class="inputbox">
+                                <input type="text" name="estado" id="estado" class="inputuser" required>
+                                <label for="estado">Estado</label>
+                            </div>
+                            <br>
+                            <div class="inputbox">
+                                <input type="text" name="endereço" id="endereço" class="inputuser" required>
+                                <label for="endereço">Endereço</label>
+                            </div>
+                            <br>
+                            <input type="submit" name="submit" id="submit">
+                            
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+
+            
+            <a href="index.html">
+                <button type="button" class="botaovoltar">
+                    <p>Voltar</p>
+                </button>
+            </a>
+           
+        </section>
+    </main>
     </body>    
 </html>

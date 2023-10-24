@@ -666,7 +666,7 @@ nav {
 .logosobrenos{
     text-align: center;
     margin-top: 70px;
-    border-bottom: 2px solid rgb(20, 20, 20);
+    border-bottom: 1px solid rgb(20, 20, 20);
     padding-bottom: 40px;
 }
 
@@ -710,12 +710,13 @@ nav {
 .listainstitucional{
     display: flex;
     text-align: center;
-    justify-content: space-around;
-    font-size: 30px;
+    justify-content: space-between;
+    font-size: 35px;
     padding-top: 80px;
-    padding-left: 230px;
-    padding-right: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
+
 
 /* makeup */
 
@@ -794,6 +795,51 @@ nav {
 
 .inf{
     font-size: 15px;
+}
+
+/* login */
+
+
+.login {
+    background-size: cover;
+    background-image: url(images/fundos/Cecilie\ Karoline.jpg);
+    width: 100vw;
+    height: 100vh;
+}
+
+#menu1 {
+    position: relative;
+    bottom: 65px;
+}
+
+.quadradologin {
+    display: flex;
+    width: 450px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.7); 
+    border-radius: 20px;
+    text-align: center;
+    margin: 50px auto 0; 
+}
+
+.botaovoltar {
+    width: 150px;
+    height: 35px;
+    background-color: white;
+    border-radius: 5px;
+    outline: none; 
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s; 
+    margin-left: 890px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
