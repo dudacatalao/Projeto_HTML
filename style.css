@@ -698,6 +698,25 @@ nav {
     font-size: 30px;
 }
 
+.infosb{
+    color: #C0809B;
+    text-align: center;
+    font-size: 50px;
+    margin-top: -230px;
+    margin-bottom: 200px;
+
+}
+
+.listainstitucional{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 30px;
+    padding-top: 80px;
+    padding-left: 230px;
+    padding-right: 200px;
+}
+
 /* makeup */
 
 .retangulomake{
