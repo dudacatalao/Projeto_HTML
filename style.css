@@ -53,13 +53,13 @@ nav {
     color: black;
 }
 
-.linksnav link{
-    color: black;
+.navitens{
     text-decoration: none;
+    color: black;
 }
 
-.linksnav link:hover{
-    color: black;
+.navitens:hover{
+    color: #DF47AB;
 }
 
 .menu-container img {
@@ -245,6 +245,15 @@ nav {
     align-items: center;
     text-align: left;
     
+}
+
+.barrai{
+    text-decoration: none;
+    color: black;
+}
+
+.barrai:hover{
+    color: #DF47AB;
 }
 
 .parcelar{
@@ -512,6 +521,8 @@ nav {
     height: 700px;
 }
 
+
+/* footer */
 .footer{
     display: flex;
     width: 1900;
@@ -558,6 +569,15 @@ nav {
 .lado4pt3 img{
     width: 47px;
     padding-right: 0px;
+}
+
+.footeritens{
+    text-decoration: none;
+    color: black;
+}
+
+.footeritens:hover{
+    color: #DF47AB;
 }
 
 /* products */
@@ -717,6 +737,15 @@ nav {
     padding-right: 150px;
 }
 
+.institucionalitens{
+    text-decoration: none;
+    color: black;
+}
+
+.institucionalitens:hover{
+    color: #DF47AB;
+}
+
 
 /* makeup */
 
@@ -813,26 +842,29 @@ nav {
 }
 
 .quadradologin {
-    display: flex;
+   
     width: 450px;
-    height: 500px;
+    height: 600px;
     background-color: rgba(255, 255, 255, 0.7); 
     border-radius: 20px;
     text-align: center;
     margin: 50px auto 0; 
+    padding: 20px;
+    
 }
 
 .botaovoltar {
-    width: 150px;
-    height: 35px;
-    background-color: white;
+    width: 100%;
+    max-width: 200px;
+    height: 40px;
+    background-color: #DF47AB;
+    border: none;
     border-radius: 5px;
-    outline: none; 
+    color: white;
     cursor: pointer;
-    transition: background-color 0.3s, border-color 0.3s; 
-    margin-left: 890px;
+    font-size: 16px;
     margin-top: 20px;
-    font-size: 15px;
+    margin-left: 860px;
 }
 
 .box{
@@ -840,6 +872,160 @@ nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: black;
+
 }
+
+.fieldset{
+    border: 2px solid #DF47AB;
+    padding: 30px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.legend{
+    border: none;
+    background-color: #DF47AB;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 109px;
+    font-size: 16px;
+    
+}
+
+.inputbox{
+    position: relative;
+    margin: 10px 0;
+}
+
+.inputuser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    color: #DF47AB;
+    font-size: 15px;
+    letter-spacing: 2px;
+    width: 100%;
+}
+
+.inputuser:focus ~ .labelinput, 
+.inputuser:valid ~ .labelinput{
+    top: -20px;
+    font-size: 12px;
+    color: black;
+
+}
+
+.labelinput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+#data{
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    color: #DF47AB;
+    outline: none;   
+}
+
+#submit{
+    background-color: #DF47AB;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    color: black;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+
+/* produto solo */
+
+.select-image-principal img{
+    margin-top: 80px;
+    width: 550px;
+    height: 550px;
+    margin-left: 190px;
+}
+
+/* política de privacidade */
+
+.politica{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logosobrenos{
+    text-align: center;
+    margin-top: 70px;
+    padding-bottom: 40px;
+}
+
+.textopolitica{
+    text-align: center;
+  
+}
+
+.textopolitica{
+    margin-top: 60px;
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 30px;
+}
+
+.retangulopolitica{
+    margin-top: 70px;
+    margin-left: 220px;
+    border-radius: 10px;
+    background-color: white;
+    width: 1500px !important;
+    height: 2200px;
+    margin-bottom: 35px;
+}
+
+.retangulopolitica {
+    text-align: center;
+    font-size: 30px;
+}
+
+.titulo-rosa{
+    color: #C0809B;
+}
+
+/* perguntas frequentes */
+
+.retanguloperguntas{
+    background-color: #FCC5E2;
+    width: 900px;
+    height: 55px;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+
+.pergunta{
+    font-size: 22px;
+    padding-top: 14px;
+    padding-left: 7px;
+}
+
+.resposta{
+    margin-left: 150px;
+    padding-top: 20px;
+    margin-right: 200px;
+    font-size: 20px;
+}
+
+.perguntasf{
+    padding-bottom: 90px;
+}
+
+
 
 
