@@ -1028,6 +1028,10 @@ nav {
 
 /* frete grátis */
 
+.classes{
+    margin-bottom: 200px;
+}
+
 .titulo2{
     margin-top: 50px;
     font-size: 80px;
@@ -1037,13 +1041,24 @@ nav {
     margin-bottom: -20px;
 }
 
+.littletext{
+    font-size: 20px;
+    font-weight: bold
+}
+
 .texto{
     text-align: center;
     font-size: 25px;
     margin-top: 10px;
 }
 
-.retanguloregras{
+.textoregra{
+    margin-left: 320px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.retanguloregras1{
     margin-top: 90px;
     margin-left: 250px;
     background-color: #1F5A3A;
@@ -1051,11 +1066,50 @@ nav {
     height: 50px;
 }
 
-.textoregra{
-    margin-left: 320px;
-    margin-top: -50px;
+.retanguloregras2{
+    margin-top: 90px;
+    margin-left: 250px;
+    background-color: #94A9D7;
+    width: 50px;
+    height: 50px;
 }
 
 
+.retanguloregras3{
+    margin-top: 90px;
+    margin-left: 250px;
+    background-color: #C6A0CA;
+    width: 50px;
+    height: 50px;
+}
 
+.retanguloregras4{
+    margin-top: 90px;
+    margin-left: 250px;
+    background-color: #9FCC3F;
+    width: 50px;
+    height: 50px;
+}
+
+.retanguloregras5{
+    margin-top: 90px;
+    margin-left: 250px;
+    background-color: #F15859;
+    width: 50px;
+    height: 50px;
+}
+
+.retanguloregras6{
+    margin-top: 90px;
+    margin-left: 250px;
+    background-color: #FFD200;
+    width: 50px;
+    height: 50px;
+}
+
+.imagemfrete img{
+    display: flex;
+    margin-left: 1100px;
+    margin-top: -750px;
+}
 
