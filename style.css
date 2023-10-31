@@ -1113,6 +1113,18 @@ nav {
     margin-top: -750px;
 }
 
+/* contact us */
+
+.box2{
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
 
 .contatos-container{
     width: 100%;
