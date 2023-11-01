@@ -907,6 +907,7 @@ nav {
     font-size: 15px;
     letter-spacing: 2px;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .inputuser:focus ~ .labelinput, 
@@ -942,18 +943,50 @@ nav {
     font-size: 15px;
     border-radius: 8px;
     cursor: pointer;
-    
 }
 
 /* produto solo */
 
-.select-image-principal img{
-    margin-top: 80px;
-    width: 550px;
-    height: 550px;
-    margin-left: 190px;
+.first_part{
+    display: flex;
 }
 
+.price_product{
+    font-size: 24px;
+}
+
+.option_price{
+    color: #696565;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.imagem_principal img{
+    margin-top: 200px;
+    width: 481px;
+    height: 500px;
+    flex-shrink: 0; 
+    margin-left: 184px;
+}
+
+.produto{
+    width: 546px;
+    height: 180px;
+    flex-shrink: 0; 
+}
+
+.estrelas input[type=radio] {
+    display: none;
+  }
+  .estrelas label i.fa:before {
+    content:'\f005';
+    color: #E26EBA;
+  }
+.estrelas input[type=radio]:checked ~ label i.fa:before {
+    color: #CCC;
+}
 /* política de privacidade */
 
 .politica{
@@ -1115,6 +1148,10 @@ nav {
 
 /* contact us */
 
+.fieldset2{
+    border: none;
+}
+
 .box2{
     padding-left: 100px;
     padding-right: 100px;
@@ -1125,35 +1162,95 @@ nav {
     color: black;
 }
 
+.box3{
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    justify-content: space-between;
+}
 
 .contatos-container{
     width: 100%;
-    height: 700px;
+    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
     background-attachment: fixed;
 }
 
-.contatos-container:nth-of-type(1){
+.contatos-container:nth-of-type(2){
     background-image: url(images/parallax/po-rosa-espalhar-com-pinceis-esfregando-uns-aos-outros.jpg);
     height: 600px;
 }
 
-.contatos-container:nth-of-type(3){
+.contatos-container:nth-of-type(4){
     background-image: url(images/parallax/po-rosa-espalhar-com-pinceis-esfregando-uns-aos-outros.jpg);
     height: 600px;
 }
 
-.contatos-container:nth-of-type(5){
+.contatos-container:nth-of-type(6){
     background-image: url(images/parallax/po-rosa-espalhar-com-pinceis-esfregando-uns-aos-outros.jpg);
     height: 600px;
 }
 
-.contatos-container:nth-of-type(7){
+.contatos-container:nth-of-type(8){
     background-image: url(images/parallax/po-rosa-espalhar-com-pinceis-esfregando-uns-aos-outros.jpg);
     height: 600px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    text-decoration: none;
+}
+.btn::after {
+    content: "↑";
+    font-size: 32px;
+    font-weight: bold;
+    color: aliceblue;
+    transition: margin-top 250ms;
+}
+.btn:hover::after {
+    margin-top:-8px;
+}
+
+.mensagembox{
+    display: flex;
+}
+
+.contact_reason{
+    padding-bottom: 20px;
+}
+
+.icon{
+    display: flex;
+    padding-top: 40px;
+    margin-left: 140px;
+    margin-right: 120px;
+}
+
+.icon_text{
+    display: flex;
+    padding-top: 24px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.icones{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -50px;
 }
 
 
