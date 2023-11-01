@@ -947,6 +947,14 @@ nav {
 
 /* produto solo */
 
+.cores{
+    margin-top: 30px;
+}
+
+.price{
+    margin-top: 30px;
+}
+
 .first_part{
     display: flex;
 }
@@ -954,6 +962,12 @@ nav {
 .price_product{
     font-size: 24px;
 }
+
+.quantity{
+    margin-top: 30px;
+}
+
+
 
 .option_price{
     color: #696565;
@@ -1030,6 +1044,35 @@ nav {
 
 .titulo-rosa{
     color: #C0809B;
+}
+
+.cupom{
+    display: -moz-inline-grid;
+}
+
+.info_product{}
+
+
+
+.retangulo_product{
+    background-color: #F8D9E9;
+    width: 1900px;
+    height: 200px;
+}
+
+.titulo3{
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    padding-top: 45px;
+}
+
+.first_part{
+    padding-left: 130px;
+}
+
+.informaçoes_container{
+    margin-left: 25px;
 }
 
 /* perguntas frequentes */
@@ -1202,6 +1245,11 @@ nav {
     height: 600px;
 }
 
+.contatos-container1{
+    height: 280px;
+}
+
+
 .btn {
     display: flex;
     justify-content: center;
@@ -1267,8 +1315,8 @@ nav {
   }
   
   .card {
-    height: 100%;
-    width: 100%;
+    height: 300px;
+    width: 280px;
     position: relative;
     transition: transform 1500ms;
     transform-style: preserve-3d;
@@ -1276,9 +1324,9 @@ nav {
   
   .front,
   .back {
-    height: 100%;
-    width: 100%;
-    border-radius: 5rem;
+    height: 300px;
+    width: 280px;
+    border-radius: 600px;
     box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
     position: absolute;
     backface-visibility: hidden;
@@ -1297,3 +1345,13 @@ nav {
     align-items: center;
     gap: 5rem;
   }
+
+
+  .products_container2 {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
