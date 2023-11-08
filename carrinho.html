@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>Carrinho de compras</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <link rel="shortcut icon" href="icon-principal.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+        <header>
+            <div class="navbar">
+                <div class="menu-container">
+                    <i id="menu">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 7H4" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" />
+                            <path d="M20 12H4" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" />
+                            <path d="M20 17H4" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" />
+                        </svg>
+                    </i>
+                    <a href="index.html"><img src="logo/logo.png" alt="Logo"></a>
+                </div>
+    
+                <div class="searchbar">
+                    <input   class="teste" id="search" type="text" name="searchbar" placeholder="O que você procura?">
+                    <a href="">
+                        <img src="icons/search.svg" alt="lupa">
+                    </a>
+                </div>
+               
+                <div class="icons">
+        
+                    <i id="icon carrinho">
+                        <a href="carrinho.html">
+                            <svg width="30" height="27" viewBox="0 0 30 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2.5 3.375L2.83114 3.47434C4.48119 3.96936 5.30621 4.21686 5.7781 4.80611C6.25 5.39535 6.25 6.17804 6.25 7.74342V10.6875C6.25 13.8694 6.25 15.4604 7.34835 16.449C8.4467 17.4375 10.2145 17.4375 13.75 17.4375H23.75"
+                                    stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" />
+                                <path
+                                    d="M9.375 20.25C10.4105 20.25 11.25 21.0055 11.25 21.9375C11.25 22.8695 10.4105 23.625 9.375 23.625C8.33946 23.625 7.5 22.8695 7.5 21.9375C7.5 21.0055 8.33946 20.25 9.375 20.25Z"
+                                    stroke="#1C274C" stroke-width="1.5" />
+                                <path
+                                    d="M20.625 20.2501C21.6605 20.2501 22.5 21.0056 22.5 21.9376C22.5 22.8696 21.6605 23.6251 20.625 23.6251C19.5895 23.6251 18.75 22.8696 18.75 21.9376C18.75 21.0056 19.5895 20.2501 20.625 20.2501Z"
+                                    stroke="#1C274C" stroke-width="1.5" />
+                                <path d="M13.75 10.125H10" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" />
+                                <path
+                                    d="M6.25 6.75H20.563C23.1317 6.75 24.416 6.75 24.9719 7.50854C25.5276 8.2671 25.0216 9.32956 24.0097 11.4545L23.474 12.5795C23.0016 13.5715 22.7654 14.0676 22.2957 14.3463C21.8261 14.625 21.2265 14.625 20.0272 14.625H6.25"
+                                    stroke="#1C274C" stroke-width="1.5" />
+                            </svg>
+                        </a>    
+                    </i>
+    
+                    </a>
+                    <i id="icon profile">
+                        <a href="login.html">
+                            <svg width="32" height="29" viewBox="0 0 32 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12 12.0833C14.9455 12.0833 17.3333 9.91937 17.3333 7.24999C17.3333 4.58061 14.9455 2.41666 12 2.41666C9.05447 2.41666 6.66666 4.58061 6.66666 7.24999C6.66666 9.91937 9.05447 12.0833 12 12.0833Z"
+                                    stroke="#1C274C" stroke-width="1.5" />
+                                <path
+                                    d="M12 25.375C17.1546 25.375 21.3333 23.2111 21.3333 20.5417C21.3333 17.8723 17.1546 15.7083 12 15.7083C6.84533 15.7083 2.66666 17.8723 2.66666 20.5417C2.66666 23.2111 6.84533 25.375 12 25.375Z"
+                                    stroke="#1C274C" stroke-width="1.5" />
+                            </svg>
+                        </a>    
+                    </i>
+                </div>
+            </div>
+    
+            <div class="linksnav">
+                <nav>
+                    <a href="index.html" class="navitens">home</a>
+                    <a href="produto.html" class="navitens">produtos</a>
+                    <a href="novidades.html" class="navitens">novidades</a>
+                    <a href="perfumaria.html" class="navitens">perfumaria</a>
+                    <a href="dermocosméticos.html" class="navitens">dermocosméticos</a>
+                    <a href="maquiagem.html" class="navitens">maquiagem</a>
+                    <a href="sobre nós.html" class="navitens">sobre nós</a>
+                    <a href="contato.html" class="navitens">contato</a>     
+                </nav>
+            </div>       
+        </header>
+
+    <main>
+        <section class="carrinho_container">
+            <div class="titulo">
+                <p>Meu Carrinho</p>
+            </div>
+
+            <section class="cart">
+                <div class="cart-item">
+                    <img src="produtos/dermocosmeticos/prod1/1.webp" alt="Produto 1">
+
+                    <div class="item-details">
+                        <p class="titulo_product">La Roche Posey</p>
+                        <p class="description_product">Protetor Solar Anthelios Airlicium + FPS80 - 40g</p>
+                        <p class="price_cart">R$ 80,95</p>
+                    </div>
+
+                    <div class="item-actions">
+                        <input type="number" value="1">
+                        <button class="remove">Remover</button>
+                    </div>
+
+                </div>
+
+                <div class="cart-item">
+                    <img src="produtos/dermocosmeticos/prod1/1.webp" alt="Produto 1">
+
+                    <div class="item-details">
+                        <p class="titulo_product">La Roche Posey</p>
+                        <p class="description_product">Protetor Solar Anthelios Airlicium + FPS80 - 40g</p>
+                        <p class="price_cart">R$ 80,95</p>
+                    </div>
+
+                    <div class="item-actions">
+                        <input type="number" value="1">
+                        <button class="remove">Remover</button>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="cupom_container">
+                <p class="titulo_product">Cupom de desconto</p>
+                <input type="text" class="cupom_input" placeholder="Código"> 
+                <button class="checkout">Aplicar</button>
+                <br>
+                <a href="" class="remover">Remover</a>
+            </section>
+
+
+            <section class="summary">
+                <p class="titulo_product">Resumo da compra</p>
+                <p class="info">Total de Itens: <span id="total-items">3</span></p>
+                <p class="info">Subtotal: <span id="total-price">R$ 110,00</span></p>
+
+                <div class="entrega_container">
+                    <p class="titulo_product">Entrega</p>
+                    <input type="text" class="cupom_input" placeholder="CEP"> 
+                    <button class="checkout">Buscar</button>
+                    <br>
+                    <a href="https://buscacepinter.correios.com.br/app/endereco/index.php" class="remover">Não sabe seu CEP?</a>
+                </div>
+
+                <p>Total: <span id="total-price">R$ 110,00</span></p>
+
+                <a href="produto.html">
+                    <button class="checkout2">Continuar comprando</button>
+                </a>
+
+                <button class="checkout">Finalizar Compra</button>
+
+
+            </section>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="lado1">
+            <a href="index.html">
+                <img src="logo/logo_branca.png" alt="">
+            </a>
+            <p>Flourish: onde a beleza e o cuidado se encontram para realçar o melhor de você. </p>
+        </div>
+
+        <div class="lado2">
+            <p class="titulo4">ATENDIMENTO AO CLIENTE</p>
+            <li>Via WhatsApp: (00)00000-0000</li>
+            <li>Via E-mail: atendimento.flourish@gmail.com</li>
+        </div>
+
+        <div class="lado3">
+            <p class="titulo4">INSTITUCIONAL</p>
+            <a href="sobre nós.html" class="footeritens">
+                <li>Sobre nós</li>
+            </a>
+            <a href="politica de privacidade.html" class="footeritens">
+                <li>Politica de privacidade</li>
+            </a>
+
+            <a href="perguntas frequentes.html" class="footeritens">
+                <li>Perguntas Frequentes</li>
+            </a>
+        </div>
+
+            <div class="lado4">
+
+                <div class="escrita">
+                    <p class="titulo4">FORMAS DE PAGAMENTO</p>
+                </div>
+                
+                <div class="flags">
+                    <div class="lado4pt1">
+                        <li><img src="images/formas de pagamento/visa.png" alt=""></li>
+                        <li><img src="images/formas de pagamento/elo.png" alt=""></li>
+                    </div>
+        
+                    <div class="lado4pt2">
+                        <li><img src="images/formas de pagamento/master-card.png" alt=""></li>
+                        <li><img src="images/formas de pagamento/boleto-bancario.png" alt=""></li>
+                    </div>
+        
+                    <div class="lado4pt3">
+                        <li><img src="images/formas de pagamento/diners-club.png" alt=""></li>
+                        <li><img src="images/formas de pagamento/pix.png" alt=""></li>
+                    </div>
+                </div>
+            </div>
+            
+    </footer>
+
+</body>
+</html>
