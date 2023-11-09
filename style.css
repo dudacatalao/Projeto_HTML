@@ -1576,7 +1576,29 @@ nav {
 
 .titulo_product{
     font-weight: bold;
-    font-size: 16px;
+}
+
+.titulo_cart{
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 60px;
+    color: #676564 ;
+}
+
+.titulo_cart2{
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 75px;
+    padding-bottom: 15px;
+    color: #676564 ;
+}
+
+.titulo_cart3{
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 180px;
+    color: #676564;
 }
 
 .summary{
@@ -1593,7 +1615,6 @@ nav {
     height: 30px;
     background-color: #eae1e8;
     border: 1px solid black;
-    margin-top: 10px;
     margin-right: 10px;
 }
 
@@ -1611,9 +1632,15 @@ nav {
 }
 
 .info{
-    margin-right: 70px;
-    font-size: 13px;
+    padding-right: 85px;
+    font-size: 16px;
     color: gray;
+}
+
+.info1{
+    padding-right: 105px;
+    font-size: 16px;
+    color: gray
 }
 
 .checkout2{
@@ -1632,5 +1659,11 @@ nav {
     padding: 10px;
     cursor: pointer;
     margin-top: 20px;
+}
+
+.total-price{
+
+    color: #DF47AB;
+    margin-right: -80px;
 }
 
