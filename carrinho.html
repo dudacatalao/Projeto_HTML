@@ -124,39 +124,45 @@
 
             </section>
 
-            <section class="cupom_container">
-                <p class="titulo_cart">Cupom de desconto</p>
-                <input type="text" class="cupom_input" placeholder="Código"> 
-                <button class="checkout">Aplicar</button>
-                <br>
-                <a href="" class="remover">Remover</a>
-            </section>
-
-
+           <div class="titulo">Resumo da compra</div>
+           <section class="cart">
             <section class="summary">
-                <p class="titulo_cart2">Resumo da compra</p>
-                <p class="info1">Total de Itens: <span class="total-items">2</span></p>
-                <p class="info">Subtotal: <span id="total-price">R$ 110,00</span></p>
-
+                <div class="infocard">
+                    <p>Total de Itens: <span class="total-items">2</span></p>
+                    <p class="infosolo">Subtotal: <span id="total-price">R$ 110,00</span></p>
+                </div>
+        
+                <div class="cupom_container">
+                    <p class="titulo_cart">Cupom de desconto</p>
+                    <input type="text" class="cupom_input" placeholder="Código">
+                    <button class="checkout">Aplicar</button>
+                    <br>
+                    <a href="" class="remover">Remover</a>
+                </div>
+        
                 <div class="entrega_container">
                     <p class="titulo_cart3">Entrega</p>
-                    <input type="text" class="cupom_input" placeholder="CEP"> 
+                    <input type="text" class="cupom_input" placeholder="CEP">
                     <button class="checkout">Buscar</button>
                     <br>
                     <a href="https://buscacepinter.correios.com.br/app/endereco/index.php" class="remover">Não sabe seu CEP?</a>
                 </div>
-
+        
                 <p class="titulo_cart2">Total: <span class="total-price">R$ 110,00</span></p>
-
+        
                 <a href="produto.html">
                     <button class="checkout2">Continuar comprando</button>
                 </a>
+                
+                <div class="separando">
+                    <button class="checkout">Finalizar Compra</button>
+                </div>
+                
 
-                <button class="checkout">Finalizar Compra</button>
             </section>
-            
-
         </section>
+        
+
     </main>
 
     <footer class="footer">

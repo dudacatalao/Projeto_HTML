@@ -346,6 +346,7 @@ nav {
   
 .front {
     background-image: url(images/essa.png);
+    background-repeat: no-repeat;
 }
   
 .back {
@@ -391,6 +392,7 @@ nav {
   
 .front2 {
     background-image: url(images/make.png);
+    background-repeat: no-repeat;
 }
   
 .back2 {
@@ -445,6 +447,7 @@ nav {
   
 .front3 {
     background-image: url(images/hair.png);
+    background-repeat: no-repeat;
 }
   
 .back3 {
@@ -499,6 +502,7 @@ nav {
   
 .front4 {
     background-image: url(images/perfume.png);
+    background-repeat: no-repeat;
 }
   
 .back4 {
@@ -1547,7 +1551,6 @@ nav {
 }
 
 .price_cart {
-    text-align: right;
     flex-wrap: wrap;
     padding-right: 210px;
 }
@@ -1583,6 +1586,7 @@ nav {
     font-size: 20px;
     padding-right: 60px;
     color: #676564 ;
+    margin-top: 10px;
 }
 
 .titulo_cart2{
@@ -1593,66 +1597,55 @@ nav {
     color: #676564 ;
 }
 
-.titulo_cart3{
-    padding-top: 30px;
-    font-weight: bold;
-    font-size: 20px;
-    padding-right: 180px;
-    color: #676564;
+.cart {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 40px 250px 30px;
+    padding: 20px;
 }
 
-.summary{
-    text-align: right;
-    margin-right: 250px;
+
+.summary {
+    text-align: left;
     margin-bottom: 100px;
 }
 
-.cupom_input{
+
+.infocard {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+}
+
+.infosolo {
+    margin-bottom: 25px;
+}
+
+.cupom_container {
+    margin-bottom: 30px;
+}
+
+.titulo_cart {
+    font-weight: bold;
+    font-size: 20px;
+    color: #676564;
+    margin-top: 10px;
+}
+
+.cupom_input {
     text-decoration: none;
     border-radius: 0;
     text-align: right;
     width: 150px;
     height: 30px;
     background-color: #eae1e8;
-    border: 1px solid black;
+    border: 1px solid #000;
     margin-right: 10px;
 }
 
-.cupom_container{
-    text-align: right;
-    margin-right: 250px;
-    margin-bottom: 30px;
-}
-
-.remover{
-    padding-top: 15px;
-    color: #000;
-    margin-right: 78px;
-    font-size: 12px;
-}
-
-.info{
-    padding-right: 85px;
-    font-size: 16px;
-    color: gray;
-}
-
-.info1{
-    padding-right: 105px;
-    font-size: 16px;
-    color: gray
-}
-
-.checkout2{
-    background-color: #eae1e8;
-    border: 1px solid black;
-    padding: 10px;
-    cursor: pointer;
-    margin-top: 20px;
-    
-}
-
-.checkout2:hover{
+.checkout {
     background-color: #DF47AB;
     color: #fff;
     border: none;
@@ -1661,9 +1654,53 @@ nav {
     margin-top: 20px;
 }
 
-.total-price{
-
-    color: #DF47AB;
-    margin-right: -80px;
+.checkout:hover {
+    background-color: #e374cf;
 }
 
+.remover {
+    padding-top: 15px;
+    color: #000;
+    font-size: 12px;
+    margin-right: 78px;
+}
+
+.entrega_container {
+    margin-bottom: 30px;
+}
+
+.titulo_cart3 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 180px;
+    color: #676564;
+}
+
+.titulo_cart2 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 75px;
+    padding-bottom: 15px;
+    color: #676564;
+}
+
+.total-price {
+    color: #DF47AB;
+}
+
+.checkout2 {
+    background-color: #eae1e8;
+    border: 1px solid #000;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.checkout2:hover {
+    background-color: #DF47AB;
+    color: #fff;
+    border: 1px solid #DF47AB;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
