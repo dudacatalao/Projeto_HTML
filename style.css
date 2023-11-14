@@ -1236,19 +1236,19 @@ nav {
 
 .compre_junto {
     display: flex;
-    justify-content: center; /* Centraliza os produtos horizontalmente */
+    justify-content: center; 
     flex-wrap: wrap;
-    margin: 20px 0; /* Adicionei um pouco mais de margem para separar dos outros elementos */
+    margin: 20px 0; 
 }
 
 .product2 {
     background-color: #fff;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    margin: 10px; /* Ajustei a margem para dar espaço entre os produtos */
+    margin: 10px; 
     padding: 20px;
     text-align: center;
-    flex-basis: calc(25% - 20px); /* Largura do produto com margem entre eles */
+    flex-basis: calc(25% - 20px); 
     box-sizing: border-box;
 }
 
