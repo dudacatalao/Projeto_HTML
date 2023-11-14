@@ -1163,6 +1163,24 @@ nav {
 
 /* produto solo */
 
+.italico{
+    font-style: italic;
+}
+
+.imagens_secundarias{
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0; 
+   
+}
+
+
+.imagens{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+
 .cores{
     margin-top: 30px;
 }
@@ -1191,7 +1209,7 @@ nav {
     line-height: normal; 
 }
 
-.imagem_principal img{
+.imagem_principal {
     margin-top: 200px;
     width: 481px;
     height: 500px;
@@ -1216,6 +1234,28 @@ nav {
     color: #CCC;
 }
 
+.compre_junto {
+    display: flex;
+    justify-content: center; /* Centraliza os produtos horizontalmente */
+    flex-wrap: wrap;
+    margin: 20px 0; /* Adicionei um pouco mais de margem para separar dos outros elementos */
+}
+
+.product2 {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 10px; /* Ajustei a margem para dar espaço entre os produtos */
+    padding: 20px;
+    text-align: center;
+    flex-basis: calc(25% - 20px); /* Largura do produto com margem entre eles */
+    box-sizing: border-box;
+}
+
+.product2 img {
+    max-width: 100%;
+    border-radius: 5px;
+}
 
 .products_container_solo {
     display: flex;
@@ -1605,24 +1645,6 @@ nav {
     padding: 20px;
 }
 
-
-.summary {
-    text-align: left;
-    margin-bottom: 100px;
-}
-
-
-.infocard {
-    margin-top: 20px;
-    text-align: center;
-    font-size: 18px;
-    border-bottom: 1px solid #ccc;
-}
-
-.infosolo {
-    margin-bottom: 25px;
-}
-
 .cupom_container {
     margin-bottom: 30px;
 }
@@ -1703,4 +1725,8 @@ nav {
     padding: 10px;
     cursor: pointer;
     margin-top: 20px;
+}
+
+.infocard{
+    text-align: center;
 }
