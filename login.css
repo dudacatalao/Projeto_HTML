@@ -13,6 +13,7 @@ body{
     list-style-type: none;
     border: none;
     font-family: 'Courier New', Courier, monospace, garamond;
+    background-repeat: no-repeat;
 }
 
 
@@ -181,4 +182,14 @@ nav {
     font-size: 15px;
     border-radius: 8px;
     cursor: pointer;
+}
+
+.links{
+    margin-left: 875px;
+    margin-top: 20px;
+    color: black;
+}
+
+.links :hover(){
+    color: #DF47AB;
 }
