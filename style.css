@@ -1167,6 +1167,12 @@ nav {
     font-style: italic;
 }
 
+.titulo5{
+    font-weight: bolder;
+    color: #DF47AB;
+    font-size: 26px;
+}
+
 .imagens_secundarias{
     width: 50px;
     height: 50px;
@@ -1248,7 +1254,7 @@ nav {
     margin: 10px; 
     padding: 20px;
     text-align: center;
-    flex-basis: calc(25% - 20px); 
+    flex-basis: calc(25% - 100px); 
     box-sizing: border-box;
 }
 
@@ -1263,6 +1269,19 @@ nav {
     align-items: center;
     flex-wrap: wrap;
     margin: 20px 0;
+}
+
+.centralizando{
+    display: flex;
+    padding-top: 220px;
+}
+
+.conjuntotexto{
+    display: flex;
+    flex-direction: column;
+    padding-top: 210px;
+    padding-left: 30px;
+    font-size: 25px;
 }
 /* política de privacidade */
 
@@ -1793,7 +1812,7 @@ nav {
 
 .off{
     font-size: 12px;
-    color: #CCC;
+    color: #696565;
 }
 
 .amount{
