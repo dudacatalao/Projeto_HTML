@@ -1,8 +1,8 @@
 // verificação se os elementos do html foram carregados no site
 if (document.readyState == "loading"){
-    document.addEventListener("DOMContentLoaded", ready)
+    document.addEventListener("DOMContentLoaded", ready())
 }else{
-    ready()
+    ready();
 }
 
 
@@ -19,7 +19,6 @@ function ready(){
     for (var i = 0; i < quantityProducts.length; i++){
         quantityProducts[i].addEventListener("change", updateTotal)
     }
-    
 }
 
 
