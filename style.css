@@ -18,9 +18,47 @@ body{
     list-style-type: none;
     border: none;
     font-family: 'Courier New', Courier, monospace, garamond;
-  }
+    height: 100vh;
+}
+/* menu lateral*/
+.side-bar {
+    background-color: #DF47AB;
+    backdrop-filter: blur(15px);
+    width: 290px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+}
+
+.menu {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.item {
+    position: relative;
+    cursor: pointer;
+}
+
+.item a {
+    color: white;
+    background: #DF47AB;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    padding: 5px 30px;
+    line-height: 60px;
+}
+
+.item a:hover {
+    background-color: #C6A0CA;
+    transition: 0.3s ease;
+}
 
 
+/*  */
 
 .navbar {
     display: flex;

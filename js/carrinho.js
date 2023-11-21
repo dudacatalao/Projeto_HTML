@@ -1,49 +1,57 @@
-// verificação se os elementos do html foram carregados no site
-if (document.readyState == "loading"){
-    document.addEventListener("DOMContentLoaded", ready())
-}else{
+// verificação se os elementos do HTML foram carregados no site
+if (document.readyState == "loading") {
+    document.addEventListener("DOMContentLoaded", ready);
+} else {
     ready();
 }
 
+function ready() {
+    const removeProductsButton = document.getElementsByClassName("remove");
 
-function ready(){
-    const removeProductsButton =  document.getElementsByClassName("remove")
-
-    // chamando a função para remover produtos
-    for (var i = 0; i < i < removeProductsButton.length; i++){
-        removeProductsButton[i].addEventListener("click", removeProduct)
+    for (var i = 0; i < removeProductsButton.length; i++) {
+        removeProductsButton[i].addEventListener("click", removeProduct);
     }
 
-    // alterando valor de acordo com o input de quantidade 
-    const quantityProducts = document.getElementsByClassName("input-cart")
-    for (var i = 0; i < quantityProducts.length; i++){
-        quantityProducts[i].addEventListener("change", updateTotal)
+    //mudando valor de acordo com a qtd do produto
+    const quantityProducts = document.getElementsByClassName("input-cart");
+    for (var i = 0; i < quantityProducts.length; i++) {
+        quantityProducts[i].addEventListener("change", updateTotal);
+    }
+
+    // adicionar produto ao carrinho
+    const addToCardButton = document.getElementsByClassName("botao")
+    for (var i = 0; i < addToCardButton.length; i++){
+        addToCardButton[i].addEventListener("click", addProductToCard)
     }
 }
 
+function addProductToCard(event){
+    const button = event.target
+    const productInfos = button.parentElement.parentElement
+    cons
+}
 
-function removeProduct(event){
-    event.target.parentElement.parentElement.remove()
+// remover produtos
+function removeProduct(event) {
+    event.target.parentElement.parentElement.remove();
     updateTotal();
 }
 
-// função para atualizar o valor total
-function updateTotal(){
-    let totalAmount = 0
-    const cartProducts = document.getElementsByClassName("cart-item")
-    for (var i = 0; i < cartProducts.length; i++){
-        const productPrice = cartProducts[i].getElementsByClassName("price_cart")[0].innerText.replace("R$", "").replace(",", ".")
-        const productQuantity = cartProducts[i].getElementsByClassName("input-cart")[0].value
+// atualizar o valor total
+function updateTotal() {
+    let totalAmount = 0;
+    const cartProducts = document.getElementsByClassName("cart-item");
+    for (var i = 0; i < cartProducts.length; i++) {
+        const productPrice = parseFloat(cartProducts[i].getElementsByClassName("price_cart")[0].innerText.replace("R$", "").replace(",", "."));
+        const productQuantity = parseInt(cartProducts[i].getElementsByClassName("input-cart")[0].value, 10);
 
-        totalAmount += productPrice * productQuantity
+        totalAmount += productPrice * productQuantity;
     }
 
-    totalAmount = totalAmount.toFixed(2)
-    totalAmount = totalAmount.replace(".", ",")
-    const totalPrice = document.getElementById("total-price").innerText = "R$" + totalAmount
+    const totalPrice = document.getElementById("total-price");
+    totalPrice.innerText = "R$" + totalAmount.toFixed(2).replace(".", ",");
 }
 updateTotal();
-
 
 
 
