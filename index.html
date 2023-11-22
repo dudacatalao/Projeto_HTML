@@ -8,23 +8,89 @@
     <link rel="shortcut icon" href="icon-principal.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css" />
     <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
 </head>
 
 <body>
     <header>
         <div class="side-bar">
+            <div class="close-btn">
+                <i class="menu-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 7H4" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+                        <path d="M20 12H4" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+                        <path d="M20 17H4" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+                        </svg>
+                </i>
+            </div>
+
             <div class="menu"></div>
 
                 <div class="item">
-                    <a class="sub-btn">Dashboard > </a>
+                    <a class="sub-btn">Dashboard <i class="dropdown"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5014 6.49871L14.7501 12.0006L6.49888 17.4987L7.49854 18.9989L18.0001 12.0013L7.50174 4.99894L6.5014 6.49871Z" fill="black"/>
+                        </svg>
+                        </i>
+                    </a>
+                    <div class="sub-menu">
+                        <a href="" class="sub-item">Sub item 01</a>
+                        <a href="" class="sub-item">Sub item 02</a>
+                        <a href="" class="sub-item">Sub item 03</a>
+                        <a href="" class="sub-item">Sub item 04</a>
+                    </div>
                 </div>
 
-                <div class="item"><a href="#"><i class="fas fa-desktop">Dashboard</i></a></div>
-                <div class="item"><a href="#"><i class="fas fa-desktop">Dashboard</i></a></div>
-                <div class="item"><a href="#"><i class="fas fa-desktop">Dashboard</i></a></div>
-                <div class="item"><a href="#"><i class="fas fa-desktop">Dashboard</i></a></div>
+                <div class="item">
+                    <a class="sub-btn">Dashboard <i class="dropdown"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5014 6.49871L14.7501 12.0006L6.49888 17.4987L7.49854 18.9989L18.0001 12.0013L7.50174 4.99894L6.5014 6.49871Z" fill="black"/>
+                        </svg>
+                        </i>
+                    </a>
+
+                    <div class="sub-menu">
+                        <a href="" class="sub-item">Sub item 01</a>
+                        <a href="" class="sub-item">Sub item 02</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a class="sub-btn">Dashboard <i class="dropdown"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5014 6.49871L14.7501 12.0006L6.49888 17.4987L7.49854 18.9989L18.0001 12.0013L7.50174 4.99894L6.5014 6.49871Z" fill="black"/>
+                        </svg>
+                        </i>
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a class="sub-btn">Dashboard <i class="dropdown"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5014 6.49871L14.7501 12.0006L6.49888 17.4987L7.49854 18.9989L18.0001 12.0013L7.50174 4.99894L6.5014 6.49871Z" fill="black"/>
+                        </svg>
+                        </i>
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a class="sub-btn">Dashboard <i class="dropdown"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5014 6.49871L14.7501 12.0006L6.49888 17.4987L7.49854 18.9989L18.0001 12.0013L7.50174 4.99894L6.5014 6.49871Z" fill="black"/>
+                        </svg>
+                        </i>
+                    </a>
+                </div>
         </div>
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                
+                $('.sub-btn').click(function(){
+                    $(this).next('.sub-menu').slideToggle();
+                    $(this).find('.dropdown').toggleClass('rotate');
+                })
+            });
+        </script>
+
+
         <div class="navbar">
             <div class="menu-container">
                 <i id="menu">

@@ -56,7 +56,32 @@ body{
     background-color: #C6A0CA;
     transition: 0.3s ease;
 }
+.item a .dropdown{
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    transition: 0.3s ease;
+}
 
+.sub-menu{
+    background-color: #CCC;
+    display: none;
+
+}
+
+.sub-menu a {
+    padding-left: 80px;
+}
+
+.rotate{
+    transform: rotate(90deg);
+}
+
+.close-btn{
+    position: absolute;
+    color: black;
+    cursor: pointer;
+}
 
 /*  */
 
