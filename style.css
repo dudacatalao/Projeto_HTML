@@ -22,14 +22,28 @@ body{
 }
 /* menu lateral*/
 .side-bar {
-    background-color: #DF47AB;
+    background-color: #FCC5E2;
     backdrop-filter: blur(15px);
     width: 290px;
     height: 100vh;
     position: fixed;
     top: 0;
-    left: 0;
+    left: -100%;
     overflow-y: auto;
+    transition:  0.6s ease;
+    transition-property: left;
+}
+
+.side-bar.active{
+    left: 0;
+}
+
+.menuicon{
+    position: absolute;
+    color: #000;
+    font-size: 20px;
+    margin: 40px;
+    cursor: pointer;
 }
 
 .menu {
@@ -44,7 +58,7 @@ body{
 
 .item a {
     color: white;
-    background: #DF47AB;
+    background: #FCC5E2;
     font-size: 16px;
     text-decoration: none;
     display: block;
@@ -53,7 +67,7 @@ body{
 }
 
 .item a:hover {
-    background-color: #C6A0CA;
+    background-color: #DF47AB;
     transition: 0.3s ease;
 }
 .item a .dropdown{
@@ -81,6 +95,25 @@ body{
     position: absolute;
     color: black;
     cursor: pointer;
+    font-size: 10px;
+    right: 0;
+    margin: 25px;
+}
+
+.x{
+    size: 5px;
+}
+
+.item .sub-btn .dropdown{
+    padding-bottom: 10px;
+}
+
+.icones-menu{
+    text-decoration: none;
+    display: flex;
+    gap: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
 }
 
 /*  */
@@ -173,6 +206,7 @@ nav {
     height: auto;
     position: relative;
     text-align: center;
+   
 }
 
 .nav-manual, .nav-auto div{

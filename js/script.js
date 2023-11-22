@@ -19,3 +19,4 @@ function proximaimg(){
     document.getElementById('radio'+count).checked = true
 
 }
+
