@@ -99,7 +99,7 @@ export const catalogoProdutos = [
         mostrarNaHome: false
     },
     {
-        codigoProduto: 8,
+        codigoProduto: 12,
         nomeProduto:"Kit de Brocas e Beats",
         preco: 859.99,
         imagemProduto:"./image/ferramentas/kit1.jpg",
