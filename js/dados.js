@@ -94,17 +94,152 @@ export const catalogoProdutos = [
         nomeProduto:"Batom Líquido Retro Matte MAC",
         preco: 169.90,
         imagemProduto:".produtos/maquiagem/prod12/1.avif",
-        descricaoProduto:"Batom Líquido Retro Matte MAC",
+        descricaoProduto:"Vermelho profundo - 5ml",
         categoria:"Maquiagem",
         mostrarNaHome: false
     },
     {
         codigoProduto: 12,
-        nomeProduto:"Kit de Brocas e Beats",
-        preco: 859.99,
-        imagemProduto:"./image/ferramentas/kit1.jpg",
-        descricaoProduto:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quibusdam, voluptates adipisci est ad natus eius recusandae accusamus delectus corporis consequuntur porro veritatis nesciunt quidem similique voluptate architecto, eum maiores?",
-        categoria:"Home",
-        mostrarNaHome: true
+        nomeProduto:"Batom Liquido Love Me MAC",
+        preco: 179.00,
+        imagemProduto:".produtos/maquiagem/prod13/1.avif",
+        descricaoProduto:"Nude Acinzentado",
+        categoria:"Maquiagem",
+        mostrarNaHome: false
+    },
+    {
+        codigoProduto: 13,
+        nomeProduto:"La Roche Posey",
+        preco: 80.95,
+        imagemProduto:".produtos/dermocosmeticos/prod1/1.webp",
+        descricaoProduto:"Protetor Solar Anthelios Airlicium + FPS80 - 40g",
+        categoria:"Dermocosméticos",
+        mostrarNaHome: false
+    },
+    {
+        codigoProduto: 14,
+        nomeProduto:"CeraVe",
+        preco: 95.90,
+        imagemProduto:".produtos/dermocosmeticos/prod2/1.webp",
+        descricaoProduto:"Loção Corporal Hidratante - 473ml",
+        categoria:"Dermocosméticos",
+        mostrarNaHome: false
+    },
+    {
+        codigoProduto: 15,
+        nomeProduto:"La Roche Posay",
+        preco: 180.99,
+        imagemProduto:".produtos/dermocosmeticos/prod3/1.webp",
+        descricaoProduto:"Sérum Antirrugas - Retinol B3 - 15ml",
+        categoria:"Dermocosméticos",
+        mostrarNaHome: false
+    },
+    {
+        codigoProduto: 16,
+        nomeProduto:"Sérum Facial Eucerin Anti-Pigment",
+        preco: 245.90,
+        imagemProduto:".produtos/dermocosmeticos/prod4/1.webp",
+        descricaoProduto:"Dual Sérum - 30ml",
+        categoria:"Dermocosméticos",
+        mostrarNaHome: false
+    },
+    {
+        codigoProduto: 17,
+        nomeProduto:"Aurien Rubra",
+        preco: 125.99,
+        imagemProduto:".produtos/perfumaria/prod1/1.webp",
+        descricaoProduto:"Deo colônia - 100ml",
+        categoria:"Perfumes",
+        mostrarNaHome: false
+    },
+    {
+        codigoProduto: 18,
+        nomeProduto:"Coffee Woman Seduction",
+        preco: 143.90,
+        imagemProduto:".produtos/perfumaria/prod2/1.2.webp",
+        descricaoProduto:"Desodorante Colônia - 100ml",
+        categoria:"Perfumes",
+        mostrarNaHome: false
+    },
+    {
+        codigoProduto: 19,
+        nomeProduto:"Glamour Just Shine",
+        preco: 154.90,
+        imagemProduto:".produtos/perfumaria/prod3/1.webp",
+        descricaoProduto:"Desodorante Colônia  - 100ml",
+        categoria:"Perfumes",
+        mostrarNaHome: false
+    },
+    {
+        codigoProduto: 20,
+        nomeProduto:"Boticollection Dreams",
+        preco: 169.90,
+        imagemProduto:".produtos/perfumaria/prod4/1.webp",
+        descricaoProduto:"Desodorante Colônia - 75ml",
+        categoria:"Perfumes",
+        mostrarNaHome: false
+    },
+    {
+        codigoProduto: 21,
+        nomeProduto:"Coffee Woman Duo",
+        preco: 99.99,
+        imagemProduto:".produtos/perfumaria/prod5/1.2.webp",
+        descricaoProduto:"Desodorante Colônia  - 100ml",
+        categoria:"Perfumes",
+        mostrarNaHome: false
+    },
+    {
+        codigoProduto: 22,
+        nomeProduto:"Lancôme la vie est belle soleil cristal",
+        preco: 569.90,
+        imagemProduto:".produtos/perfumaria/prod6/1.webp",
+        descricaoProduto:"Eau de parfum - 100ml",
+        categoria:"Perfumes",
+        mostrarNaHome: false
+    },
+    {
+        codigoProduto: 19,
+        nomeProduto:"Glamour Just Shine",
+        preco: 154.90,
+        imagemProduto:".produtos/perfumaria/prod3/1.webp",
+        descricaoProduto:"Desodorante Colônia  - 100ml",
+        categoria:"Perfumes",
+        mostrarNaHome: false
+    },
+    {
+        codigoProduto: 19,
+        nomeProduto:"Glamour Just Shine",
+        preco: 154.90,
+        imagemProduto:".produtos/perfumaria/prod3/1.webp",
+        descricaoProduto:"Desodorante Colônia  - 100ml",
+        categoria:"Perfumes",
+        mostrarNaHome: false
+    },
+    {
+        codigoProduto: 19,
+        nomeProduto:"Glamour Just Shine",
+        preco: 154.90,
+        imagemProduto:".produtos/perfumaria/prod3/1.webp",
+        descricaoProduto:"Desodorante Colônia  - 100ml",
+        categoria:"Perfumes",
+        mostrarNaHome: false
+    },
+    {
+        codigoProduto: 19,
+        nomeProduto:"Glamour Just Shine",
+        preco: 154.90,
+        imagemProduto:".produtos/perfumaria/prod3/1.webp",
+        descricaoProduto:"Desodorante Colônia  - 100ml",
+        categoria:"Perfumes",
+        mostrarNaHome: false
+    },
+    {
+        codigoProduto: 19,
+        nomeProduto:"Glamour Just Shine",
+        preco: 154.90,
+        imagemProduto:".produtos/perfumaria/prod3/1.webp",
+        descricaoProduto:"Desodorante Colônia  - 100ml",
+        categoria:"Perfumes",
+        mostrarNaHome: false
     },
 ]
