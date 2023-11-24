@@ -170,13 +170,13 @@ export function gerarPedido(listaCarrinhoDeCompras,pedidos){
 
 
 
-// for(let i = 0; i < lista.length; i++){
-//     let produto = `<div class="product_card">
-//     <a href="produto2.html">
-//     <img class="product_image" src=${lista[i].imagemProduto}>
-//     <p>preço R$ ${lista[i].preco}
-// </a>
-// </div>`
+for(let i = 0; i < lista.length; i++){
+    let produto = `<div class="product_card">
+    <a href="produto2.html">
+    <img class="product_image" src=${lista[i].imagemProduto}>
+    <p>preço R$ ${lista[i].preco}
+</a>
+</div>`
 
-// selecao.innerHTML += produto
-// }
+selecao.innerHTML += produto
+}

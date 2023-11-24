@@ -40,7 +40,7 @@ function removeProduct(event) {
 // atualizar o valor total
 function updateTotal() {
     let totalAmount = 0;
-    const cartProducts = document.getElementsByClassName("cart-item");
+    const cartProducts = document.getElementsByClassName("");
     for (var i = 0; i < cartProducts.length; i++) {
         const productPrice = parseFloat(cartProducts[i].getElementsByClassName("price_cart")[0].innerText.replace("R$", "").replace(",", "."));
         const productQuantity = parseInt(cartProducts[i].getElementsByClassName("input-cart")[0].value, 10);
