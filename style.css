@@ -2008,19 +2008,20 @@ nav {
     cursor: pointer;
 }
 
-.menu {
-    width: 100%;
+.menu-adm {
     margin-top: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
-.item {
+.item-adm {
     position: relative;
     cursor: pointer;
 }
 
-.item a {
+.item-adm a {
     color: white;
-    background: #FCC5E2;
+    background: #C0809B;
     font-size: 16px;
     text-decoration: none;
     display: block;
@@ -2028,24 +2029,24 @@ nav {
     line-height: 60px;
 }
 
-.item a:hover {
-    background-color: #DF47AB;
+.item-adm a:hover {
+    background-color: #FCC5E2;
     transition: 0.3s ease;
 }
-.item a .dropdown{
+.item-adm a .dropdown{
     position: absolute;
     right: 0;
     margin: 20px;
     transition: 0.3s ease;
 }
 
-.sub-menu{
+.sub-menu-adm{
     background-color: #CCC;
     display: none;
 
 }
 
-.sub-menu a {
+.sub-menu-adm a {
     padding-left: 80px;
 }
 
@@ -2076,4 +2077,10 @@ nav {
     gap: 25px;
     padding-left: 25px;
     padding-top: 15px;
+}
+
+/* vendas mensais */
+.tabela{
+    text-align: center;
+    
 }
