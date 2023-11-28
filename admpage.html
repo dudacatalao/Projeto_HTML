@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>Página de Administrador</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <link rel="shortcut icon" href="icon-principal.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="js/menu.js" defer></script>
+</head>
+
+<body>
+    <header>
+
+        <div class="menu-btn">
+            <i class="menuicon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 7H4" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+                    <path d="M20 12H4" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+                    <path d="M20 17H4" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+            </i>
+        </div>
+
+        <div class="side-bar">
+            <div class="close-btn">
+                <i class="x">
+                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.7656 13.719C15.8399 13.7887 15.8988 13.8714 15.9391 13.9625C15.9793 14.0535 16 14.1511 16 14.2496C16 14.3482 15.9793 14.4457 15.9391 14.5368C15.8988 14.6278 15.8399 14.7105 15.7656 14.7802C15.6912 14.8499 15.603 14.9052 15.5059 14.9429C15.4088 14.9806 15.3047 15 15.1996 15C15.0945 15 14.9904 14.9806 14.8933 14.9429C14.7962 14.9052 14.708 14.8499 14.6336 14.7802L8 8.56025L1.36637 14.7802C1.21626 14.9209 1.01268 15 0.8004 15C0.588121 15 0.384536 14.9209 0.234432 14.7802C0.0843276 14.6395 4.18453e-09 14.4486 0 14.2496C-4.18453e-09 14.0506 0.0843276 13.8598 0.234432 13.719L6.86906 7.5L0.234432 1.28097C0.0843276 1.14025 -1.5816e-09 0.949387 0 0.750375C1.5816e-09 0.551363 0.0843276 0.360502 0.234432 0.21978C0.384536 0.0790571 0.588121 1.48275e-09 0.8004 0C1.01268 -1.48275e-09 1.21626 0.0790571 1.36637 0.21978L8 6.43975L14.6336 0.21978C14.7837 0.0790571 14.9873 -3.923e-09 15.1996 0C15.4119 3.923e-09 15.6155 0.0790571 15.7656 0.21978C15.9157 0.360502 16 0.551363 16 0.750375C16 0.949387 15.9157 1.14025 15.7656 1.28097L9.13094 7.5L15.7656 13.719Z" fill="black"/>
+                    </svg>   
+                </i>
+            </div>
+
+            <div class="menu"></div>
+
+                <div class="item">
+                    <a class="sub-btn" href="index.html">Início
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a class="sub-btn">Produtos <i class="dropdown"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5014 6.49871L14.7501 12.0006L6.49888 17.4987L7.49854 18.9989L18.0001 12.0013L7.50174 4.99894L6.5014 6.49871Z" fill="black"/>
+                        </svg>
+                        </i>
+                    </a>
+
+                    <div class="sub-menu">
+                        <a href="produto.html" class="sub-item">Ver todos</a>
+                        <a href="perfumaria.html" class="sub-item">Perfumes</a>
+                        <a href="dermocosméticos.html" class="sub-item">Dermocosméticos</a>
+                        <a href="maquiagem.html" class="sub-item">Maquiagens</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a class="sub-btn">Institucional <i class="dropdown"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5014 6.49871L14.7501 12.0006L6.49888 17.4987L7.49854 18.9989L18.0001 12.0013L7.50174 4.99894L6.5014 6.49871Z" fill="black"/>
+                        </svg>
+                        </i>
+                    </a>
+
+                    <div class="sub-menu">
+                        <a href="produto.html" class="sub-item">Sobre Nós</a>
+                        <a href="perfumaria.html" class="sub-item">Perguntas Frequêntes</a>
+                        <a href="dermocosméticos.html" class="sub-item">Política de Privacidade</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a class="sub-btn" href="carrinho.html">Meu carrinho
+                    </a>
+                </div>
+
+                <div class="icones-menu">
+
+                    <a href="#">
+                        <i class="insta">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.9996 7.9C11.1887 7.9 10.3961 8.14046 9.72181 8.59097C9.04757 9.04149 8.52206 9.68182 8.21174 10.431C7.90142 11.1802 7.82023 12.0045 7.97843 12.7999C8.13663 13.5952 8.52712 14.3257 9.10051 14.8991C9.67391 15.4725 10.4045 15.863 11.1998 16.0212C11.9951 16.1794 12.8195 16.0982 13.5687 15.7879C14.3178 15.4776 14.9582 14.9521 15.4087 14.2778C15.8592 13.6036 16.0996 12.8109 16.0996 12C16.101 11.4612 15.9958 10.9275 15.7902 10.4294C15.5847 9.93141 15.2827 9.4789 14.9017 9.09792C14.5207 8.71694 14.0682 8.41498 13.5702 8.20941C13.0722 8.00383 12.5384 7.89868 11.9996 7.9ZM11.9996 14.67C11.4716 14.67 10.9554 14.5134 10.5163 14.22C10.0772 13.9266 9.73498 13.5096 9.53289 13.0218C9.3308 12.5339 9.27793 11.997 9.38095 11.4791C9.48397 10.9612 9.73827 10.4854 10.1117 10.112C10.4851 9.73862 10.9608 9.48432 11.4788 9.3813C11.9967 9.27828 12.5335 9.33115 13.0214 9.53324C13.5093 9.73533 13.9263 10.0775 14.2197 10.5166C14.5131 10.9557 14.6696 11.4719 14.6696 12C14.6696 12.7081 14.3883 13.3873 13.8876 13.888C13.3869 14.3887 12.7078 14.67 11.9996 14.67ZM17.2296 7.73C17.2296 7.92778 17.171 8.12112 17.0611 8.28557C16.9512 8.45002 16.7951 8.57819 16.6123 8.65388C16.4296 8.72957 16.2285 8.74937 16.0346 8.71078C15.8406 8.6722 15.6624 8.57696 15.5225 8.43711C15.3827 8.29725 15.2874 8.11907 15.2489 7.92509C15.2103 7.73111 15.2301 7.53004 15.3058 7.34732C15.3815 7.16459 15.5096 7.00841 15.6741 6.89853C15.8385 6.78865 16.0319 6.73 16.2296 6.73C16.4949 6.73 16.7492 6.83536 16.9368 7.02289C17.1243 7.21043 17.2296 7.46478 17.2296 7.73ZM19.9396 8.73C19.9687 7.48683 19.505 6.28259 18.6496 5.38C17.7519 4.51369 16.5471 4.03896 15.2996 4.06C13.9996 4 9.99965 4 8.69965 4.06C7.45685 4.03309 6.25342 4.4965 5.34965 5.35C4.49428 6.25259 4.03056 7.45683 4.05965 8.7C3.99965 10 3.99965 14 4.05965 15.3C4.03056 16.5432 4.49428 17.7474 5.34965 18.65C6.25342 19.5035 7.45685 19.9669 8.69965 19.94C10.0196 20.02 13.9796 20.02 15.2996 19.94C16.5428 19.9691 17.7471 19.5054 18.6496 18.65C19.505 17.7474 19.9687 16.5432 19.9396 15.3C19.9996 14 19.9996 10 19.9396 8.7V8.73ZM18.2396 16.73C18.1039 17.0739 17.8989 17.3863 17.6374 17.6478C17.376 17.9093 17.0636 18.1142 16.7196 18.25C15.1672 18.5639 13.5802 18.6715 11.9996 18.57C10.4224 18.6716 8.83865 18.564 7.28965 18.25C6.94571 18.1142 6.63332 17.9093 6.37186 17.6478C6.11039 17.3863 5.90542 17.0739 5.76965 16.73C5.34965 15.67 5.43965 13.17 5.43965 12.01C5.43965 10.85 5.34965 8.34 5.76965 7.29C5.90159 6.94267 6.1051 6.62696 6.36696 6.36338C6.62882 6.09979 6.94319 5.89422 7.28965 5.76C8.83865 5.44598 10.4224 5.33838 11.9996 5.44C13.5802 5.33855 15.1672 5.44614 16.7196 5.76C17.0636 5.89577 17.376 6.10075 17.6374 6.36221C17.8989 6.62368 18.1039 6.93606 18.2396 7.28C18.6596 8.34 18.5596 10.84 18.5596 12C18.5596 13.16 18.6596 15.67 18.2396 16.72V16.73Z" fill="white"/>
+                                </svg>
+                                
+                        </i>
+                    </a>
+
+                    <a href="#">
+                        <i class="face">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22 12C22 6.48 17.52 2 12 2C6.48 2 2 6.48 2 12C2 16.84 5.44 20.87 10 21.8V15H8V12H10V9.5C10 7.57 11.57 6 13.5 6H16V9H14C13.45 9 13 9.45 13 10V12H16V15H13V21.95C18.05 21.45 22 17.19 22 12Z" fill="white"/>
+                                </svg>
+                                
+                        </i>
+                    </a>
+
+                    <a href="#">
+                        <i class="email">
+                            <svg width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21.875 4.875H3.125C2.7106 4.875 2.31317 5.0462 2.02015 5.35095C1.72712 5.6557 1.5625 6.06902 1.5625 6.5V19.5C1.5625 19.931 1.72712 20.3443 2.02015 20.649C2.31317 20.9538 2.7106 21.125 3.125 21.125H21.875C22.2894 21.125 22.6868 20.9538 22.9799 20.649C23.2729 20.3443 23.4375 19.931 23.4375 19.5V6.5C23.4375 6.06902 23.2729 5.6557 22.9799 5.35095C22.6868 5.0462 22.2894 4.875 21.875 4.875ZM20.1562 6.5L12.5 12.0087L4.84375 6.5H20.1562ZM3.125 19.5V7.23937L12.0547 13.6662C12.1855 13.7606 12.3408 13.8112 12.5 13.8112C12.6592 13.8112 12.8145 13.7606 12.9453 13.6662L21.875 7.23937V19.5H3.125Z" fill="white"/>
+                                </svg>
+                                
+                        </i>
+                    </a>
+
+                </div>
+
+            </div>
+        <div class="navbar">
+            <div class="menu-container">
+                <a href="index.html"><img src="logo/logo.png" alt="Logo"></a>
+            </div>
+
+            <div class="searchbar">
+                <input   class="teste" id="search" type="text" name="searchbar" placeholder="O que você procura?">
+                <a href="">
+                    <img src="icons/search.svg" alt="lupa">
+                </a>
+            </div>
+           
+            <div class="icons">
+                <i id="icon carrinho">
+                    <a href="carrinho.html">
+                        <svg width="30" height="27" viewBox="0 0 30 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M2.5 3.375L2.83114 3.47434C4.48119 3.96936 5.30621 4.21686 5.7781 4.80611C6.25 5.39535 6.25 6.17804 6.25 7.74342V10.6875C6.25 13.8694 6.25 15.4604 7.34835 16.449C8.4467 17.4375 10.2145 17.4375 13.75 17.4375H23.75"
+                                stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" />
+                            <path
+                                d="M9.375 20.25C10.4105 20.25 11.25 21.0055 11.25 21.9375C11.25 22.8695 10.4105 23.625 9.375 23.625C8.33946 23.625 7.5 22.8695 7.5 21.9375C7.5 21.0055 8.33946 20.25 9.375 20.25Z"
+                                stroke="#1C274C" stroke-width="1.5" />
+                            <path
+                                d="M20.625 20.2501C21.6605 20.2501 22.5 21.0056 22.5 21.9376C22.5 22.8696 21.6605 23.6251 20.625 23.6251C19.5895 23.6251 18.75 22.8696 18.75 21.9376C18.75 21.0056 19.5895 20.2501 20.625 20.2501Z"
+                                stroke="#1C274C" stroke-width="1.5" />
+                            <path d="M13.75 10.125H10" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" />
+                            <path
+                                d="M6.25 6.75H20.563C23.1317 6.75 24.416 6.75 24.9719 7.50854C25.5276 8.2671 25.0216 9.32956 24.0097 11.4545L23.474 12.5795C23.0016 13.5715 22.7654 14.0676 22.2957 14.3463C21.8261 14.625 21.2265 14.625 20.0272 14.625H6.25"
+                                stroke="#1C274C" stroke-width="1.5" />
+                        </svg>
+                    </a>    
+                </i>
+
+                <i id="icon profile">
+                    <a href="login.html">
+                        <svg width="32" height="29" viewBox="0 0 32 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 12.0833C14.9455 12.0833 17.3333 9.91937 17.3333 7.24999C17.3333 4.58061 14.9455 2.41666 12 2.41666C9.05447 2.41666 6.66666 4.58061 6.66666 7.24999C6.66666 9.91937 9.05447 12.0833 12 12.0833Z"
+                                stroke="#1C274C" stroke-width="1.5" />
+                            <path
+                                d="M12 25.375C17.1546 25.375 21.3333 23.2111 21.3333 20.5417C21.3333 17.8723 17.1546 15.7083 12 15.7083C6.84533 15.7083 2.66666 17.8723 2.66666 20.5417C2.66666 23.2111 6.84533 25.375 12 25.375Z"
+                                stroke="#1C274C" stroke-width="1.5" />
+                        </svg>
+                    </a>    
+                </i>
+            </div>
+        </div>
+
+        <div class="linksnav">
+            <nav>
+                <a href="index.html" class="navitens">home</a>
+                <a href="produto.html" class="navitens">produtos</a>
+                <a href="novidades.html" class="navitens">novidades</a>
+                <a href="perfumaria.html" class="navitens">perfumaria</a>
+                <a href="dermocosméticos.html" class="navitens">dermocosméticos</a>
+                <a href="maquiagem.html" class="navitens">maquiagem</a>
+                <a href="sobre nós.html" class="navitens">sobre nós</a>
+                <a href="contato.html" class="navitens">contato</a>     
+            </nav>
+        </div>    
+        
+        <div class="logosobrenos">
+
+            <a href="index.html">
+                <img src="logo/logo.png" alt="">
+            </a>
+    
+        </div>
+
+                        </div>
+            </div>
+
+            <div class="infosb">
+                <p>INSTITUCIONAL</p>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="lado1">
+            <a href="index.html">
+                <img src="logo/logo_branca.png" alt="">
+            </a>
+            <p>Flourish: onde a beleza e o cuidado se encontram para realçar o melhor de você. </p>
+        </div>
+
+        <div class="lado2">
+            <p class="titulo4">ATENDIMENTO AO CLIENTE</p>
+            <li>Via WhatsApp: (00)00000-0000</li>
+            <li>Via E-mail: atendimento.flourish@gmail.com</li>
+        </div>
+
+        <div class="lado3">
+            <p class="titulo4">INSTITUCIONAL</p>
+            <a href="sobre nós.html" class="footeritens">
+                <li>Sobre nós</li>
+            </a>
+            <a href="politica de privacidade.html" class="footeritens">
+                <li>Politica de privacidade</li>
+            </a>
+
+            <a href="perguntas frequentes.html" class="footeritens">
+                <li>Perguntas Frequentes</li>
+            </a>
+        </div>
+
+            <div class="lado4">
+
+                <div class="escrita">
+                    <p class="titulo4">FORMAS DE PAGAMENTO</p>
+                </div>
+                
+                <div class="flags">
+                    <div class="lado4pt1">
+                        <li><img src="images/formas de pagamento/visa.png" alt=""></li>
+                        <li><img src="images/formas de pagamento/elo.png" alt=""></li>
+                    </div>
+        
+                    <div class="lado4pt2">
+                        <li><img src="images/formas de pagamento/master-card.png" alt=""></li>
+                        <li><img src="images/formas de pagamento/boleto-bancario.png" alt=""></li>
+                    </div>
+        
+                    <div class="lado4pt3">
+                        <li><img src="images/formas de pagamento/diners-club.png" alt=""></li>
+                        <li><img src="images/formas de pagamento/pix.png" alt=""></li>
+                    </div>
+                </div>
+            </div>
+            
+    </footer>
+</body>
+</html>
