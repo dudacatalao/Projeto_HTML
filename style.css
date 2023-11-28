@@ -1850,7 +1850,7 @@ nav {
     text-align: center;
 }
 
-/* produto solo teste */
+/* produto solo */
 .container-prod{
     display: flex;
     justify-content: center;
@@ -1978,4 +1978,102 @@ nav {
 .price-cp2{
     text-align: left;
     padding-top: 20px;
+}
+
+/* página de administrador */
+
+.side-bar {
+    z-index: 1000;
+    background-color: #FCC5E2;
+    backdrop-filter: blur(15px);
+    width: 290px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    overflow-y: auto;
+    transition:  0.6s ease;
+    transition-property: left;
+}
+
+.side-bar.active{
+    left: 0;
+}
+
+.menuicon{
+    position: absolute;
+    color: #000;
+    font-size: 20px;
+    margin: 40px;
+    cursor: pointer;
+}
+
+.menu {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.item {
+    position: relative;
+    cursor: pointer;
+}
+
+.item a {
+    color: white;
+    background: #FCC5E2;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    padding: 5px 30px;
+    line-height: 60px;
+}
+
+.item a:hover {
+    background-color: #DF47AB;
+    transition: 0.3s ease;
+}
+.item a .dropdown{
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    transition: 0.3s ease;
+}
+
+.sub-menu{
+    background-color: #CCC;
+    display: none;
+
+}
+
+.sub-menu a {
+    padding-left: 80px;
+}
+
+.rotate{
+    transform: rotate(90deg);
+}
+
+.close-btn{
+    position: absolute;
+    color: black;
+    cursor: pointer;
+    font-size: 10px;
+    right: 0;
+    margin: 25px;
+}
+
+.x{
+    size: 5px;
+}
+
+.item .sub-btn .dropdown{
+    padding-bottom: 10px;
+}
+
+.icones-menu{
+    text-decoration: none;
+    display: flex;
+    gap: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
 }
