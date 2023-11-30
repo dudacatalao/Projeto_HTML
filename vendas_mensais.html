@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css" />
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="js/menu.js" defer></script>
+    <script src="js/funcoes.js"></script>
 </head>
 
 <body>
@@ -174,37 +175,44 @@
         </div>
 
         <!-- pegar código marcia -->
-        <table border="1" class="tabela">
-            <tr>
-                <th>Cliente</th>
-                <th>Telefone</th>
-                <th>Email</th>
-                <th>Produto</th>
-                <th>Quantidade</th>
-                <th>Valor Unitário</th>
-                <th>Total</th>
-                
-            </tr>
-            <tr>
-                <td>Ted</td>
-                <td>19983197606</td>
-                <td>exemplo@gmail.com</td>
-                <td>Base</td>
-                <td>1</td>
-                <td>R$150,00</td>
-                <td>R$150,00</td>
-            </tr>
-            <tr>
-                <td>Ted</td>
-                <td>19983197606</td>
-                <td>exemplo@gmail.com</td>
-                <td>Base</td>
-                <td>1</td>
-                <td>R$150,00</td>
-                <td>R$150,00</td>
-            </tr>
-        </table>
-
+        <div class="tabela-box">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Cliente</th>
+                        <th>Telefone</th>
+                        <th>Email</th>
+                        <th>Produto</th>
+                        <th>Quantidade</th>
+                        <th>Status</th>
+                        <th>Valor Unitário</th>
+                        <th>Total</th>
+                        
+                    </tr>
+                    <tr>
+                        <td>Ted</td>
+                        <td>19983197606</td>
+                        <td>exemplo@gmail.com</td>
+                        <td>Base</td>
+                        <td>1</td>
+                        <td>Processando</td>
+                        <td>R$150,00</td>
+                        <td>R$150,00</td>
+                    </tr>
+                    <tr>
+                        <td>Ted</td>
+                        <td>19983197606</td>
+                        <td>exemplo@gmail.com</td>
+                        <td>Base</td>
+                        <td>1</td>
+                        <td>Cancelado</td>
+                        <td>R$150,00</td>
+                        <td>R$100,00</td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
     </main>
+
 </body>
 </html>

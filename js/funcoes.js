@@ -1,5 +1,4 @@
 // Esta funcao carrega todos os produtos nas paginas HOME e PRODUTOS.Ela recebe 2 parametros: A lista dos produtos que será renderizada, e o local onde o HTML será injetado
-
 export function carregaProdutos (lista, gridProduto){
     lista.forEach(item => {
     let html = `<div class="product_card" id=${item.codigoProduto}>
@@ -15,8 +14,8 @@ export function carregaProdutos (lista, gridProduto){
 }
 
 // Esta funcao adiciona o evento click nos cards de produtos. Ela captura o id do elemento e salva no local storage.
-export function handleClick(){
-    let cardProdtuos = document.querySelectorAll(".product_card")
+function handleClick(){
+    let cardProdtuos = document.querySelectorAll(".product")
         cardProdtuos.forEach(card => card.addEventListener('click', (e) => {
     let idProd = e.target.id
         localStorage.setItem("IdProd",idProd)
@@ -168,15 +167,3 @@ export function gerarPedido(listaCarrinhoDeCompras,pedidos){
     }}
 
 
-
-
-for(let i = 0; i < lista.length; i++){
-    let produto = `<div class="product_card">
-    <a href="produto2.html">
-    <img class="product_image" src=${lista[i].imagemProduto}>
-    <p>preço R$ ${lista[i].preco}
-</a>
-</div>`
-
-selecao.innerHTML += produto
-}
