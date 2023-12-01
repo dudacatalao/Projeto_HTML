@@ -1,0 +1,295 @@
+<!-- <section class="products_container">
+            
+            <div class="product">
+                <img src="produtos/maquiagem/prod4/1.png" alt="Produto 4">
+                <p class="prodtext">Base e Corretivo Matte</p>
+                <p class="description">Bege Claro 2 - 25g</p>
+                <p class="price">R$ 69,90</p>
+                <a href="prod_solo.html">
+                    <button type="button" class="botao">
+                        <p>Comprar</p>
+                    </button>
+                </a>
+            </div>
+
+            <div class="product">
+                <img src="produtos/maquiagem/prod5/Frasco-Transparente-Fosco-Base-Corretivo-Alta-Cobertura-Contorno-Iluminacao-Velvet-Skin-Bege-Medio.png" alt="Produto 5">
+                <p class="prodtext">Base e Corretivo Matte </p>
+                <p class="description">Amêndoa - 25g</p>
+                <p class="price">R$ 69,90</p>
+                <a href="produto_solo.html">
+                    <button type="button" class="botao">
+                        <p>Comprar</p>
+                    </button>
+                </a>
+            </div>
+
+            <div class="product">
+                <img src="produtos/maquiagem/prod6/1.png" alt="Produto 6">
+                <p class="prodtext">Base e Corretivo Matte </p>
+                <p class="description">Chocolate - 25g</p>
+                <p class="price">R$ 69,90</p>
+                <a href="prod_solo">
+                    <button type="button" class="botao">
+                        <p>Comprar</p>
+                    </button>
+                </a>
+            </div>
+
+            <div class="product">
+                <img src="produtos/maquiagem/prod7/1.png" alt="Produto 7">
+                <p class="prodtext">Base e Corretivo Matte </p>
+                <p class="description">Cacau 2 - 25g</p>
+                <p class="price">R$ 69,90</p>
+                <a href="prod_solo">
+                    <button type="button" class="botao">
+                        <p>Comprar</p>
+                    </button>
+                </a>
+            </div>
+
+            <div class="product">
+                <img src="produtos/maquiagem/prod8/1.avif" alt="Produto 8">
+                <p class="prodtext">Blush Extra Dimension MAC</p>
+                <p class="description">Rosa amarelado médio - 4g</p>
+                <p class="price">R$ 259,90</p>
+                <a href="prod_solo">
+                    <button type="button" class="botao">
+                        <p>Comprar</p>
+                    </button>
+                </a>
+            </div>
+
+            <div class="product">
+                <img src="produtos/maquiagem/prod9/1.avif" alt="Produto 9">
+                <p class="prodtext">Blush Extra Dimension MAC</p>
+                <p class="description">Champanhe rosado claro - 4g</p>
+                <p class="price">R$ 259,90</p>
+                <a href="prod_solo">
+                    <button type="button" class="botao">
+                        <p>Comprar</p>
+                    </button>
+                </a>
+            </div>
+
+            <div class="product">
+                <img src="produtos/maquiagem/prod2/1.avif" alt="Produto 2">
+                <p class="prodtext">Sombra Para Olhos Dazzleshadow MAC</p>
+                <p class="description">Bege pêssego com cintilante rosa</p>
+                <p class="price">R$ 149,00</p>
+                <a href="prod_solo">
+                    <button type="button" class="botao">
+                        <p>Comprar</p>
+                    </button>
+                </a>
+            </div>
+
+            <div class="product">
+                <img src="produtos/maquiagem/prod10/1.avif" alt="Produto 9">
+                <p class="prodtext">Sombra Para Olhos Dazzleshadow MAC</p>
+                <p class="description">Cinza-claro com cintilante prateado</p>
+                <p class="price">R$ 149,00</p>
+                <a href="prod_solo">
+                    <button type="button" class="botao">
+                        <p>Comprar</p>
+                    </button>
+                </a>
+            </div>
+
+            <div class="product">
+                <img src="produtos/maquiagem/prod1/1.avif" alt="Produto 10">
+                <p class="prodtext">Batom Líquido MAC Locked Kiss INK </p>
+                <p class="description">Matte Até 24 horas - 4ml</p>
+                <p class="price">R$ 219,00</p>
+                <a href="prod_solo">
+                    <button type="button" class="botao">
+                        <p>Comprar</p>
+                    </button>
+                </a>
+            </div>
+
+            <div class="product">
+                <img src="produtos/maquiagem/prod11/1.avif" alt="Produto 11">
+                <p class="prodtext">Batom Líquido  MAC Powder Kiss</p>
+                <p class="description">Rosa fluorescente brilhante - 5ml</p>
+                <p class="price">R$ 189,90</p>
+                <a href="prod_solo">
+                    <button type="button" class="botao">
+                        <p>Comprar</p>
+                    </button>
+                </a>
+            </div>
+
+            <div class="product">
+                <img src="produtos/maquiagem/prod12/1.avif" alt="Produto 12">
+                <p class="prodtext">Batom Líquido Retro Matte MAC</p>
+                <p class="description">Vermelho profundo - 5ml</p>
+                <p class="price">R$ 169,90</p>
+                <a href="prod_solo">
+                    <button type="button" class="botao">
+                        <p>Comprar</p>
+                    </button>
+                </a>
+            </div>
+
+            <div class="product">
+                <img src="produtos/maquiagem/prod13/1.avif" alt="Produto 1">
+                <p class="prodtext">Batom Liquido Love Me MAC</p>
+                <p class="description">Nude Acinzentado </p>
+                <p class="price">R$ 179,00</p>
+                <a href="prod_solo">
+                    <button type="button" class="botao">
+                        <p>Comprar</p>
+                    </button>
+                </a>
+            </div>
+
+           
+
+            <div class="product">
+                <img src="produtos/dermocosmeticos/prod1/1.webp" alt="Produto 1">
+                <p class="prodtext">La Roche Posey </p>
+                <p class="description">Protetor Solar Anthelios Airlicium + FPS80 - 40g</p>
+                <p class="price">R$ 80,95</p>
+                <a href="prod_solo">
+                    <button type="button" class="botao">
+                        <p>Comprar</p>
+                    </button>
+                </a>
+            </div>
+
+            <div class="product">
+                <img src="produtos/dermocosmeticos/prod2/1.webp" alt="Produto 1">
+                <p class="prodtext">CeraVe</p>
+                <p class="description">Loção Corporal Hidratante - 473ml</p>
+                <p class="price">R$ 95,90</p>
+                <a href="prod_solo">
+                    <button type="button" class="botao">
+                        <p>Comprar</p>
+                    </button>
+                </a>
+            </div>
+
+            <div class="product">
+                <img src="produtos/dermocosmeticos/prod3/1.webp" alt="Produto 1">
+                <p class="prodtext">La Roche Posay</p>
+                <p class="description">Sérum Antirrugas - Retinol B3 - 15ml</p>
+                <p class="price">R$ 180,99</p>
+                <a href="prod_solo">
+                    <button type="button" class="botao">
+                        <p>Comprar</p>
+                    </button>
+                </a>
+            </div>
+
+            <div class="product">
+                <img src="produtos/dermocosmeticos/prod4/1.webp" alt="Produto 1">
+                <p class="prodtext">Sérum Facial Eucerin Anti-Pigment</p>
+                <p class="description">Dual Sérum - 30ml</p>
+                <p class="price">R$ 245,90</p>
+                <a href="prod_solo">
+                    <button type="button" class="botao">
+                        <p>Comprar</p>
+                    </button>
+                </a>
+            </div>
+
+           
+
+            <div class="product">
+                <img src="produtos/perfumaria/prod1/1.webp" alt="Produto 1">
+                <p class="prodtext">Aurien Rubra </p>
+                <p class="description">Deo colônia - 100ml</p>
+                <p class="price">R$ 125,99</p>
+                <a href="prod_solo">
+                    <button type="button" class="botao">
+                        <p>Comprar</p>
+                    </button>
+                </a>
+            </div>
+
+            <div class="product">
+                <img src="produtos/perfumaria/prod2/1.2.webp" alt="Produto 1">
+                <p class="prodtext">Coffee Woman Seduction</p>
+                <p class="description">Desodorante Colônia - 100ml </p>
+                <p class="price">R$ 143,90</p>
+                <a href="prod_solo">
+                    <button type="button" class="botao">
+                        <p>Comprar</p>
+                    </button>
+                </a>
+            </div>
+
+            <div class="product">
+                <img src="produtos/perfumaria/prod3/1.webp" alt="Produto 1">
+                <p class="prodtext">Glamour Just Shine</p>
+                <p class="description">Desodorante Colônia  - 100ml </p>
+                <p class="price">R$ 154,90</p>
+                <a href="prod_solo">
+                    <button type="button" class="botao">
+                        <p>Comprar</p>
+                    </button>
+                </a>
+            </div>
+
+            <div class="product">
+                <img src="produtos/perfumaria/prod4/1.webp" alt="Produto 1">
+                <p class="prodtext">Boticollection Dreams </p>
+                <p class="description">Desodorante Colônia - 75ml</p>
+                <p class="price">R$ 169,90</p>
+                <a href="prod_solo">
+                    <button type="button" class="botao">
+                        <p>Comprar</p>
+                    </button>
+                </a>
+            </div>
+
+            <div class="product">
+                <img src="produtos/perfumaria/prod5/1.2.webp" alt="Produto 1">
+                <p class="prodtext"></p>Coffee Woman Duo
+                <p class="description">Eau de parfum - 100ml</p>
+                <p class="price">R$ 569,99</p>
+                <a href="prod_solo">
+                    <button type="button" class="botao">
+                        <p>Comprar</p>
+                    </button>
+                </a>
+            </div>
+
+            <div class="product">
+                <img src="produtos/perfumaria/prod6/1.webp" alt="Produto 1">
+                <p class="prodtext">Lancôme la vie est belle soleil cristal</p>
+                <p class="description">Batom Mari Maria</p>
+                <p class="price">R$ 99,99</p>
+                <a href="prod_solo">
+                    <button type="button" class="botao">
+                        <p>Comprar</p>
+                    </button>
+                </a>
+            </div>
+
+             <div class="product">
+                <img src="produtos/perfumaria/prod7/1.webp" alt="Produto 1">
+                <p class="prodtext">Good Girl Blush Carolina Herrera</p>
+                <p class="description">Eau de Parfum - 80ml</p>
+                <p class="price">R$ 719,90</p>
+                <a href="prod_solo">
+                    <button type="button" class="botao">
+                        <p>Comprar</p>
+                    </button>
+                </a>
+            </div> -->
+
+            <!-- <div class="product">
+                <img src="produtos/perfumaria/prod8/1.webp" alt="Produto 1">
+                <p class="prodtext">Dior J adore Parfum</p>
+                <p class="description">Eau de Parfum - 30ml</p>
+                <p class="price">R$ 479,99</p>
+                <a href="prod_solo">
+                    <button type="button" class="botao">
+                        <p>Comprar</p>
+                    </button>
+                </a>
+            </div> -->
+
+        </section> 

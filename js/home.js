@@ -1,5 +1,5 @@
-import { catalogoProdutos } from "./data.js" // importa o catalogo de produtos
-import { carregaProdutos, cartIndicator, handleClick} from "./funcoes.js"; // importa as funcoes que serao executadas na pagina home
+import { catalogoProdutos } from ".js/dados.js" // importa o catalogo de produtos
+import { carregaProdutos, cartIndicator, handleClick} from ".js/funcoes.js"; // importa as funcoes que serao executadas na pagina home
 
 let listaCompras = JSON.parse(localStorage.getItem("carrinho"))
 

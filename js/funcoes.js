@@ -8,8 +8,6 @@ export function carregaProdutos (lista, gridProduto){
                     <p>preço R$ ${item.preco}
                 </div>`
     gridProduto.innerHTML += html
-        
-        
     });
 }
 
@@ -24,7 +22,7 @@ function handleClick(){
 }
 
 // Esta funcao localiza um item em uma lista de items: recebe 2 paramentos: A lista de itens, como o catalogo de produtos, e o ID(codigo do produto) que deverá ser encontrado.
-export function findItem(items, Id){
+export function findItem(items, id){
     let item = items.find(produto => produto.codigoProduto == Id)
     return item
 }
@@ -32,24 +30,25 @@ export function findItem(items, Id){
 // Esta funcao carrega o produto encontrado pela funcao findItem na pagina do produto. Recebe como parametro o produto que será renderizado na pagina do produto
 export function carregaProduto(item){
     let insertProduto = document.querySelector("section.product_detail_container")
-    let html = `<div class="img_product_container">
-                    <div class="product_info_image">
-                        <img src="${item.imagemProduto}" alt="">
+    let html = `<section class="products_container">
+                    <div class="product"> 
+                        <img src="${item.imagemProduto}">
+                        <h1>${item.nomeProduto}</h1>
+                        <p ${item.descricaoProduto}>Bege Claro 2 - 25g</p>
+                        <p ${item.preco}>R$ 69,90</p>
+                        <a href="prod_solo.html">
+                            <button type="button" class="botao">
+                                <p>Comprar</p>
+                            </button>
+                        </a>
                     </div>
-                    <div class="product_info">
-                        <h2>${item.nomeProduto}</h2>
-                        <span>${item.preco}</span>
-                        <input type="number" name="" id="quantidade" value=1>
-                        <button>Comprar</button>
-                        <p>${item.descricaoProduto}</p>
-                    </div>
-                </div>`
+                </section>`
     insertProduto.innerHTML = html
 }
 
 // Esta função adiciona um item ao carrinho: recebe 2 parametros : o carrinho de compras e o produto que sera adicionado
 export function addCarrinho(listaCompras,item, id){
-        let botaoComprar = document.querySelector("button")
+        const botaoComprar = document.getElementsByClassName("button");
         botaoComprar.addEventListener("click", ()=> {
 
             if(listaCompras.find(item => item.codigoProduto == id)){
@@ -57,8 +56,7 @@ export function addCarrinho(listaCompras,item, id){
                 let i = listaCompras.findIndex(item => item.codigoProduto == id)
                 listaCompras[i].quantidade += 1
                 localStorage.setItem("carrinho",JSON.stringify(listaCompras))
-               
-
+                
             } else{
             let quantidade = parseInt(document.querySelector("#quantidade").value)
             // Nesta linha, capturamos o valor do input quantidade e convertemos para numero, pois recebemos o valor como string

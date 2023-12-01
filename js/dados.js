@@ -230,7 +230,7 @@ inicializarloja = () => {
                     <h1>${val.nomeProduto}</h1>
                     <p ${val.descricaoProduto}>Bege Claro 2 - 25g</p>
                     <p ${val.preco}>R$ 69,90</p>
-                    <a href="prod_solo.html">
+                    <a href="produto_solo.html">
                         <button type="button" class="botao">
                             <p>Comprar</p>
                         </button>

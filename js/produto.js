@@ -1,5 +1,5 @@
-import { catalogoProdutos } from "./data.js";
-import { findItem, carregaProduto, addCarrinho, cartIndicator} from "./funcoes.js";
+import { catalogoProdutos } from ".js/dados.js";
+import { findItem, carregaProduto, addCarrinho, cartIndicator} from ".js/funcoes.js";
 let listaCompras = JSON.parse(localStorage.getItem("carrinho"))
 
 if (listaCompras == null){
