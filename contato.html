@@ -209,8 +209,8 @@
         <section class="contatos-container"></section>
         <section class="contatos-container">
             
-            <div class="box3">
-                <label for="contact_reason">Categoria da Mensagem:</label>
+            <div class="box3" id="box3">
+                <label for="contact_reason" id="link">Categoria da Mensagem:</label>
                 <select name="contact_reason" id="contact_reason" required="" class="inputuser">
                 <option value="" selected="" ></option>
                 <option value="1">Informações sobre produtos</option>
@@ -235,9 +235,10 @@
                     <textarea name="mensagem" id="mensagem" cols="12" rows="6"></textarea>
                 </div>
                 
-                <input type="submit" name="submit" id="submit">
-
+                
+                <button type="submit" id="submit">Enviar formulário</button>
             </div>
+
         </section>
 
         <section class="contatos-container"></section>
@@ -245,7 +246,7 @@
         <section class="contatos-container1">
 
             <section class="direcionar">
-                <a href="#" class="btn" id="scrollDownButton"></a>
+                <a href="#link" class="btn" id="scrollDownButton"></a>
 
             </section>
 

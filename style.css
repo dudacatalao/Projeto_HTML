@@ -1143,7 +1143,6 @@ nav {
 
 /* login */
 
-
 .login {
     background-size: cover;
     background-image: url(images/fundos/Cecilie\ Karoline.jpg);
@@ -1569,6 +1568,12 @@ nav {
 
 /* contact us */
 
+.inputbox textarea {
+    resize: none; 
+    width: 400px; 
+    height: 180px; 
+}
+
 .fieldset2{
     border: none;
 }
@@ -1641,7 +1646,7 @@ nav {
     text-decoration: none;
 }
 .btn::after {
-    content: "↑";
+    content: "↓";
     font-size: 32px;
     font-weight: bold;
     color: aliceblue;
@@ -1934,7 +1939,6 @@ nav {
 }
 
 .button{
-    display: inline-block;
     text-decoration: none;
     color: white;
     background-color: #DF47AB;
@@ -1944,6 +1948,7 @@ nav {
     align-items: center;
     width: fit-content;
     gap: 5px;
+    
 }
 
 .options{

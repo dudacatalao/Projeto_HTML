@@ -1,19 +1,29 @@
 // Esta funcao carrega todos os produtos nas paginas HOME e PRODUTOS.Ela recebe 2 parametros: A lista dos produtos que será renderizada, e o local onde o HTML será injetado
-export function carregaProdutos (lista, gridProduto){
+export function carregaProdutos(lista, gridProduto) {
     lista.forEach(item => {
-    let html = `<div class="product_card" id=${item.codigoProduto}>
-                    <a href="./produto.html">
-                        <img class="product_image" src=${item.imagemProduto} id=${item.codigoProduto} >
+        const produtoHtml = `
+            <section class="products_container">
+                <div class="product_card" id="${item.codigoProduto}">
+                    <a href="/produto.html">
+                        <img class="product_image" src="${item.imagemProduto}" id="${item.codigoProduto}">
                     </a>
-                    <p>preço R$ ${item.preco}
-                </div>`
-    gridProduto.innerHTML += html
+                    <h1>${item.nomeProduto}</h1>
+                    <p>${item.descricaoProduto}</p>
+                    <p>R$ ${item.preco}</p>
+                    <a href="produto_solo.html">
+                        <button type="button" class="botao">
+                            <p>Comprar</p>
+                        </button>
+                    </a>
+                </div>
+            </section>`;
+        gridProduto.innerHTML += produtoHtml;
     });
 }
 
 // Esta funcao adiciona o evento click nos cards de produtos. Ela captura o id do elemento e salva no local storage.
 function handleClick(){
-    let cardProdtuos = document.querySelectorAll(".product")
+    let cardProdtuos = document.querySelectorAll("product")
         cardProdtuos.forEach(card => card.addEventListener('click', (e) => {
     let idProd = e.target.id
         localStorage.setItem("IdProd",idProd)
@@ -47,32 +57,22 @@ export function carregaProduto(item){
 }
 
 // Esta função adiciona um item ao carrinho: recebe 2 parametros : o carrinho de compras e o produto que sera adicionado
-export function addCarrinho(listaCompras,item, id){
-        const botaoComprar = document.getElementsByClassName("button");
-        botaoComprar.addEventListener("click", ()=> {
-
-            if(listaCompras.find(item => item.codigoProduto == id)){
-                alert("Item já adicionado ao carrinho. ")
-                let i = listaCompras.findIndex(item => item.codigoProduto == id)
-                listaCompras[i].quantidade += 1
-                localStorage.setItem("carrinho",JSON.stringify(listaCompras))
-                
-            } else{
-            let quantidade = parseInt(document.querySelector("#quantidade").value)
-            // Nesta linha, capturamos o valor do input quantidade e convertemos para numero, pois recebemos o valor como string
-            //item.quantidade = quantidade   opçao 1 - adicionar a propriedade quantidade ao nosso objeto, e depois fazer o push do item na lista de compras
-            //listaCompras.push(item)
-            listaCompras.push({...item,quantidade}) // opcao 2 - criar um novo objeto com o spread operador, incluindo a propriedade quantidade
-            localStorage.setItem("carrinho",JSON.stringify(listaCompras)) // verificar o link https://warcontent.com/localstorage-javascript/#armazenamento-de-objetos-json
-            alert("item adicionado ao carrinho")  
-
-            }
-
-            
-              
-        })
+export function addCarrinho(listaCompras, item, id) {
+    const botaoComprar = document.getElementById("button"); // Altere "botaoComprar" para o ID correto do botão
+    botaoComprar.addEventListener("click", () => {
+        if (listaCompras.find(item => item.codigoProduto == id)) {
+            alert("Item já adicionado ao carrinho.");
+            let i = listaCompras.findIndex(item => item.codigoProduto == id);
+            listaCompras[i].quantidade += 1;
+            localStorage.setItem("carrinho", JSON.stringify(listaCompras));
+        } else {
+            let quantidade = parseInt(document.querySelector("#quantidade").value);
+            listaCompras.push({ ...item, quantidade });
+            localStorage.setItem("carrinho", JSON.stringify(listaCompras));
+            alert("Item adicionado ao carrinho.");
+        }
+    });
 }
-
 
 export function valorTotalQuantidade (listaCarrinhoDeCompras){
 let soma = 0
