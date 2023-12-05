@@ -220,7 +220,7 @@ const catalogoProdutos = [
 
 inicializarloja = () => {
     let containerProdutos = document.getElementById('product');
-    containerProdutos.innerHTML = ''; // Limpar o conteúdo anterior
+    containerProdutos.innerHTML = ''; 
 
     catalogoProdutos.map((val) => {
         const produtoHtml = `
@@ -230,16 +230,30 @@ inicializarloja = () => {
                     <h1>${val.nomeProduto}</h1>
                     <p ${val.descricaoProduto}>Bege Claro 2 - 25g</p>
                     <p ${val.preco}>R$ 69,90</p>
-                    <a href="produto_solo.html">
+                    <a key="${val.codigoProduto}" href="#">
                         <button type="button" class="botao">
-                            <p>Comprar</p>
+                            <p>Adicionar ao Carrinho</p>
                         </button>
                     </a>
                 </div>
             </section>
         `;
-        containerProdutos.innerHTML += produtoHtml; // Adicionar o produto ao conteúdo existente
+        containerProdutos.innerHTML += produtoHtml; 
     });
 }
 
-inicializarloja();
+// atualizarCarrinho = () => {
+//     console.log(items);
+// }
+
+// var links = document.getElementsByTagName("a");
+
+// for (var i = 0; i < links.length; i++){
+//     links[i].addEventListener("click", function(){
+//         let key = this.getAttribute('key');
+//         items[key].quantidade++;
+//         atualizarCarrinho();
+//     })
+// }
+
+// inicializarloja();

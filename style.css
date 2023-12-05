@@ -945,6 +945,9 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; 
+    padding: 0 20px;
+    
+
 }
 
 .product {
@@ -956,6 +959,7 @@ nav {
     text-align: center;
     flex-basis: calc(25% - 20px); 
     box-sizing: border-box;
+    width: 33.3%;
 }
 
 .product img {

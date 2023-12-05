@@ -10,6 +10,7 @@
     <script async src="js/carrinho.js"></script>
     <script src="js/menu.js" defer></script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script> 
+    <script type="module" src="js/produto.js"></script>
 </head>
 
 <body>
@@ -174,8 +175,8 @@
             <div class="container-prod">
                 <div class="left-side">
                     <dis class="items">
-                        <div class="select-image">
-                            <img src="produtos/dermocosmeticos/prod1/1.webp" alt="">
+                        <div class="select-image" id="img">
+                            <img src="" alt="">
                         </div>
 
                         <div class="thumbnails">
@@ -200,7 +201,7 @@
                 
                 <div class="right-side">
                     <div class="content">
-                        <h3>Batom Liquido Love Me MAC Nude Acinzentado </h3>
+                        <h3 id="nome"></h3>
 
                         <div class="estrelas">
                             <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -219,12 +220,12 @@
                             </div>
                         </div>
 
-                        <div class="prices">
-                            <span class="price">R$ 179,00</span>
-                            <span class="off">OU 3X DE R$10,89</span>
+                        <div class="prices" id="prices">
+                            <span class="price"></span>
+                            <span class="off"></span>
                         </div>
     
-                        <h2> Para um delineado perfeito, delineador para olhos com pincel ultrafino.(exemplo)</h2>
+                        <h2 id="descricao"></h2>
                         <a href="#tatata"><p class="italico">QUERO SABER MAIS</p></a>
     
                         <div class="options">
@@ -237,7 +238,7 @@
                                 </div>
                             </div>
     
-                            <button class="button"> <a href=""></a> <img src="icons/carrinho.svg" alt="">Adicionar ao carrinho</button>
+                            <button class="button" id="button"> <a href=""></a> <img src="icons/carrinho.svg" alt="">Adicionar ao carrinho</button>
                         </div>
                        
                     </div>

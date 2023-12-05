@@ -293,3 +293,168 @@
             </div> -->
 
         </section> 
+
+
+
+
+        <section>
+            <div class="container-prod">
+                <div class="left-side">
+                    <dis class="items">
+                        <div class="select-image">
+                            <img src="produtos/dermocosmeticos/prod1/1.webp" alt="">
+                        </div>
+
+                        <div class="thumbnails">
+                            <div class="thumbnail">
+                                <img src="produtos/dermocosmeticos/prod1/2.webp" alt="">
+                            </div>
+
+                            <div class="thumbnail">
+                                <img src="produtos/dermocosmeticos/prod2/1.webp" alt="">
+                            </div>
+
+                            <div class="thumbnail">
+                                <img src="produtos/dermocosmeticos/prod2/2.webp" alt="">
+                            </div>
+
+                            <div class="thumbnail">
+                                <img src="produtos/dermocosmeticos/prod1/1.webp" alt="">
+                            </div>
+                        </div>
+                    </dis>
+                </div>
+                
+                <div class="right-side">
+                    <div class="content">
+                        <h3>Batom Liquido Love Me MAC Nude Acinzentado </h3>
+
+                        <div class="estrelas">
+                            <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+                            <div class="estrelas">
+                                <input type="radio" id="cm_star-empty" name="fb" value="" checked/>
+                                <label for="cm_star-1"><i class="fa"></i></label>
+                                <input type="radio" id="cm_star-1" name="fb" value="1"/>
+                                <label for="cm_star-2"><i class="fa"></i></label>
+                                <input type="radio" id="cm_star-2" name="fb" value="2"/>
+                                <label for="cm_star-3"><i class="fa"></i></label>
+                                <input type="radio" id="cm_star-3" name="fb" value="3"/>
+                                <label for="cm_star-4"><i class="fa"></i></label>
+                                <input type="radio" id="cm_star-4" name="fb" value="4"/>
+                                <label for="cm_star-5"><i class="fa"></i></label>
+                                <input type="radio" id="cm_star-5" name="fb" value="5"/>
+                            </div>
+                        </div>
+
+                        <div class="prices">
+                            <span class="price">R$ 179,00</span>
+                            <span class="off">OU 3X DE R$10,89</span>
+                        </div>
+    
+                        <h2> Para um delineado perfeito, delineador para olhos com pincel ultrafino.(exemplo)</h2>
+                        <a href="#tatata"><p class="italico">QUERO SABER MAIS</p></a>
+    
+                        <div class="options">
+                            <div class="amount">
+                                <div class="minus">
+                                    <img src="" alt="">
+                                </div>
+                                <span>0</span>
+                                <div class="plus">
+                                </div>
+                            </div>
+    
+                            <button class="button"> <a href=""></a> <img src="icons/carrinho.svg" alt="">Adicionar ao carrinho</button>
+                        </div>
+                       
+                    </div>
+                   
+            </div>
+        </section>
+
+        <section class="infoadd" id="tatata">
+            <div class="info_more">
+                <div class="retangulo_product">
+                    <div class="informaçoes_container">
+                        <p class="titulo3">
+                            Batom Liquido Love Me MAC Nude Acinzentado 
+                        </p>
+    
+                        <p class="info_product">
+                            Quer um delineado perfeito e fininho? Apresentamos 4 opções de Delineadores com pincel ultrafino.
+                            Sua fórmula hipoalergênica é leve e proporciona uma super pigmentação . Possui um pincel ultrafino que promove precisão ao seu delineado e permite o ajuste da espessura do traço.
+                            É bom saber: hipoalergênico, dermatologicamente testado, oftalmologicamente Testado, adequado para todos os tipos de pele, não irritante, sem parabenos, sem perfume, sem crueldade
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="compre_junto">
+            <p class="titulo3"> Aproveite e compre junto</p>
+        </div>
+
+        
+        <section class="compre_junto">
+            <div class="product2">
+                <img src="produtos/dermocosmeticos/prod1/1.webp" alt="Produto 1">
+                <p class="prodtext">La Roche Posey</p>
+                <p class="description">Protetor Solar Anthelios Airlicium + FPS80 - 40g</p>
+                <p class="price-cp">R$ 80,95</p>
+                <a href="prod_solo">
+                    <button type="button" class="botao">
+                        <p>Comprar</p>
+                    </button>
+                </a>
+            </div>
+
+            <i class="centralizando">
+                <svg width="57" height="51" viewBox="0 0 57 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_d_110_418)">
+                    <ellipse cx="28.5" cy="21.5" rx="24.5" ry="21.5" fill="#C0809B"/>
+                    </g>
+                    <path d="M37.04 20.68H29.44V12.92H28.04V20.68H20.48V22H28.04V29.8H29.44V22H37.04V20.68Z" fill="black"/>
+                    <defs>
+                    <filter id="filter0_d_110_418" x="0" y="0" width="57" height="51" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="2"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_110_418"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_110_418" result="shape"/>
+                    </filter>
+                    </defs>
+                </svg>                    
+            </i>
+        
+            <div class="product2">
+                <img src="produtos/dermocosmeticos/prod2/1.webp" alt="Produto 2">
+                <p class="prodtext">CeraVe</p>
+                <p class="description">Loção Corporal Hidratante - 473ml</p>
+                <p class="price-cp2">R$ 95,90</p>
+                <a href="prod_solo">
+                    <button type="button" class="botao">
+                        <p>Comprar</p>
+                    </button>
+                </a>
+            </div>
+
+            <i class="centralizando">
+                <svg width="57" height="51" viewBox="0 0 57 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_d_110_419)">
+                    <g filter="url(#filter1_d_110_419)">
+                    <ellipse cx="28.5" cy="21.5" rx="24.5" ry="21.5" fill="#C0809B"/>
+                    </g>
+                    <path d="M20.48 24.68V26H37.04V24.68H20.48ZM20.48 16.68V18H37.04V16.68H20.48Z" fill="black"/>
+                    </g>
+                </svg>
+            </i>
+
+            <div class="conjuntotexto">
+                <p>Leve os dois itens por:</p>
+                <p class="titulo5">R$54,35</p>
+            </div>
+
+        </section>
