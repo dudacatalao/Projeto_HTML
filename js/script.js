@@ -19,4 +19,21 @@ function proximaimg(){
 
 }
 
-// search
+// validação login
+function logar(){
+    var login = document.getElementById("usuario").value;
+    var senha = document.getElementById("senha").value;
+
+    if (login == "admin" && senha == "admin" ){
+        alert("Logado com sucesso")
+        location.href = "admpage.html"
+    }else{
+        alert("Usuário ou senha incorretos")
+    }
+}
+
+// cadastro
+
+var form = document.getElementById("form")
+var nameInput = document.getElementById("usuario-cad")
+// var senhaInput = document.

@@ -2,28 +2,43 @@
 export function carregaProdutos(lista, gridProduto) {
     lista.forEach(item => {
         const produtoHtml = `
-            <section class="products_container">
-                <div class="product_card" id="${item.codigoProduto}">
-                    <a href="/produto.html">
-                        <img class="product_image" src="${item.imagemProduto}" id="${item.codigoProduto}">
-                    </a>
-                    <h1>${item.nomeProduto}</h1>
-                    <p>${item.descricaoProduto}</p>
-                    <p>R$ ${item.preco}</p>
-                    <a href="produto_solo.html">
-                        <button type="button" class="botao">
-                            <p>Comprar</p>
-                        </button>
-                    </a>
-                </div>
-            </section>`;
+        <div class="product prodID" id="${item.codigoProduto}">
+            <img src="${item.imagemProduto}" alt="Produto 6" id="${item.codigoProduto}">
+            <p class="prodtext">${item.nomeProduto}</p>
+            <p class="description">${item.descricaoProduto}</p>
+            <p class="price">${item.preco}</p>
+            <a href="./produto_solo.html" id="${item.codigoProduto}">
+                <button type="button" class="botao" id="${item.codigoProduto}">
+                    <p id="${item.codigoProduto}">Comprar</p>
+                </button>
+            </a>
+        </div>`
+        gridProduto.innerHTML += produtoHtml;
+    });
+}
+
+export function carregaProdutos2(lista, gridProduto) {
+    lista.forEach(item => {
+        const produtoHtml = `
+        <div class="product_vend prodID" id="${item.codigoProduto}">
+    
+        <img src="${item.imagemProduto}" alt="Produto 1" id="${item.codigoProduto}">
+        <h2>${item.nomeProduto}</h2>
+        <p class="description">${item.descricaoProduto}</p>
+        <p class="price">${item.preco}</p>
+        <a href="./produto_solo.html" id="${item.codigoProduto}">
+            <button type="button" class="botao" id="${item.codigoProduto}">
+                <p id="${item.codigoProduto}">Comprar</p>
+            </button>
+        </a>
+    </div>`;
         gridProduto.innerHTML += produtoHtml;
     });
 }
 
 // Esta funcao adiciona o evento click nos cards de produtos. Ela captura o id do elemento e salva no local storage.
-function handleClick(){
-    let cardProdtuos = document.querySelectorAll("product")
+export function handleClick(){
+    let cardProdtuos = document.querySelectorAll(".prodID")
         cardProdtuos.forEach(card => card.addEventListener('click', (e) => {
     let idProd = e.target.id
         localStorage.setItem("IdProd",idProd)
@@ -33,32 +48,91 @@ function handleClick(){
 
 // Esta funcao localiza um item em uma lista de items: recebe 2 paramentos: A lista de itens, como o catalogo de produtos, e o ID(codigo do produto) que deverá ser encontrado.
 export function findItem(items, id){
-    let item = items.find(produto => produto.codigoProduto == Id)
+    let item = items.find(produto => produto.codigoProduto == id)
     return item
 }
 
 // Esta funcao carrega o produto encontrado pela funcao findItem na pagina do produto. Recebe como parametro o produto que será renderizado na pagina do produto
 export function carregaProduto(item){
-    let insertProduto = document.querySelector("section.product_detail_container")
-    let html = `<section class="products_container">
-                    <div class="product"> 
-                        <img src="${item.imagemProduto}">
-                        <h1>${item.nomeProduto}</h1>
-                        <p ${item.descricaoProduto}>Bege Claro 2 - 25g</p>
-                        <p ${item.preco}>R$ 69,90</p>
-                        <a href="prod_solo.html">
-                            <button type="button" class="botao">
-                                <p>Comprar</p>
-                            </button>
-                        </a>
+    let insertProduto = document.querySelector("#insert_product")
+    let html = ` <div class="container-prod">
+    <div class="left-side">
+        <dis class="items">
+            <div class="select-image">
+                <img src="${item.imagemProduto}" alt="">
+            </div>
+
+            <div class="thumbnails">
+                <div class="thumbnail">
+                    <img src="produtos/dermocosmeticos/prod1/2.webp" alt="">
+                </div>
+
+                <div class="thumbnail">
+                    <img src="produtos/dermocosmeticos/prod2/1.webp" alt="">
+                </div>
+
+                <div class="thumbnail">
+                    <img src="produtos/dermocosmeticos/prod2/2.webp" alt="">
+                </div>
+
+                <div class="thumbnail">
+                    <img src="produtos/dermocosmeticos/prod1/1.webp" alt="">
+                </div>
+            </div>
+        </dis>
+    </div>
+    
+    <div class="right-side">
+        <div class="content">
+            <h3>Batom Liquido Love Me MAC Nude Acinzentado </h3>
+
+            <div class="estrelas">
+                <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+                <div class="estrelas">
+                    <input type="radio" id="cm_star-empty" name="fb" value="" checked/>
+                    <label for="cm_star-1"><i class="fa"></i></label>
+                    <input type="radio" id="cm_star-1" name="fb" value="1"/>
+                    <label for="cm_star-2"><i class="fa"></i></label>
+                    <input type="radio" id="cm_star-2" name="fb" value="2"/>
+                    <label for="cm_star-3"><i class="fa"></i></label>
+                    <input type="radio" id="cm_star-3" name="fb" value="3"/>
+                    <label for="cm_star-4"><i class="fa"></i></label>
+                    <input type="radio" id="cm_star-4" name="fb" value="4"/>
+                    <label for="cm_star-5"><i class="fa"></i></label>
+                    <input type="radio" id="cm_star-5" name="fb" value="5"/>
+                </div>
+            </div>
+
+            <div class="prices">
+                <span class="price">R$ 179,00</span>
+                <span class="off">OU 3X DE R$10,89</span>
+            </div>
+
+            <h2> Para um delineado perfeito, delineador para olhos com pincel ultrafino.(exemplo)</h2>
+            <a href="#tatata"><p class="italico">QUERO SABER MAIS</p></a>
+
+            <div class="options">
+                <div class="amount">
+                    <div class="minus">
+                        <img src="" alt="">
                     </div>
-                </section>`
+                    <span id="quantidade">1</span>
+                    <div class="plus">
+                    </div>
+                </div>
+
+                <button class="button addCart"> <a href=""></a> <img src="icons/carrinho.svg" alt="">Adicionar ao carrinho</button>
+            </div>
+           
+        </div>
+       
+</div>`
     insertProduto.innerHTML = html
 }
 
 // Esta função adiciona um item ao carrinho: recebe 2 parametros : o carrinho de compras e o produto que sera adicionado
 export function addCarrinho(listaCompras, item, id) {
-    const botaoComprar = document.getElementById("button"); // Altere "botaoComprar" para o ID correto do botão
+    const botaoComprar = document.querySelector(".addCart"); // Altere "botaoComprar" para o ID correto do botão
     botaoComprar.addEventListener("click", () => {
         if (listaCompras.find(item => item.codigoProduto == id)) {
             alert("Item já adicionado ao carrinho.");
@@ -92,15 +166,22 @@ console.log(soma, quantidade)
 
 export function listCarrinhoCompras (ListaCarrinhoDeCompras,carrinho){
     ListaCarrinhoDeCompras.forEach(item => {
-        let valorTotal = (item.quantidade * item.preco)
-        let html =`<li class="cart_item" id="${item.codigoProduto}">
-    <p>${item.nomeProduto}</p>
-    <div class="cart_item_container">
-        <input type="number" name="quantidade" id="" value="${item.quantidade}">
-        <span class="valorTotal">R$ ${valorTotal}</span>
-        <i class="bi bi-trash3-fill remove" id="${item.codigoProduto}"></i>
-    </div>
-    </li>`
+       
+        let html =`<div class="cart-item" id="${item.codigoProduto}">
+        <img src="produtos/dermocosmeticos/prod1/1.webp" alt="Produto 1">
+
+        <div class="item-details">
+            <p class="titulo_product">La Roche Posey</p>
+            <p class="description_product">Protetor Solar Anthelios Airlicium + FPS80 - 40g</p>
+            <p class="price_cart">R$ 80,95</p>
+        </div>
+
+        <div class="item-actions">
+            <input type="number" value="1" class="input-cart">
+            <button class="remove">Remover</button>
+        </div>
+
+    </div>`
     carrinho.innerHTML += html  
     });
 }
@@ -128,21 +209,21 @@ export function gerarPedido(listaCarrinhoDeCompras,pedidos){
     let id = pedidos.length
      if (pedidos == null || pedidos == 0){id = 1}
 
-    let endereco = {
-        nome: document.querySelector("input#nome").value,
-        logradouro: document.querySelector("input#logradouro").value,
-        cidade: document.querySelector("input#cidade").value,
-        bairro: document.querySelector("input#bairro").value,
-        estado: document.querySelector("input#estado").value,
-        CEP: document.querySelector("input#CEP").value,
-        telefone: document.querySelector("input#telefone").value,
-        email: document.querySelector("input#email").value
-         }
+    // let endereco = {
+    //     nome: document.querySelector("input#nome").value,
+    //     logradouro: document.querySelector("input#logradouro").value,
+    //     cidade: document.querySelector("input#cidade").value,
+    //     bairro: document.querySelector("input#bairro").value,
+    //     estado: document.querySelector("input#estado").value,
+    //     CEP: document.querySelector("input#CEP").value,
+    //     telefone: document.querySelector("input#telefone").value,
+    //     email: document.querySelector("input#email").value
+    //      }
 
     let pedido = {
         id: id,
         itens: listaCarrinhoDeCompras,
-        endereco: endereco
+        
     }
 
     pedidos.push(pedido)

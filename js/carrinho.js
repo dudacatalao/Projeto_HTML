@@ -1,3 +1,22 @@
+import { listCarrinhoCompras, gerarPedido } from "./funcoes.js"
+let listaCarrinhoDeCompras = JSON.parse(localStorage.getItem("carrinho"))
+let carrinho = document.querySelector('.cart')
+
+listCarrinhoCompras(listaCarrinhoDeCompras,carrinho)
+
+let pedidos = JSON.parse(localStorage.getItem("pedidos"))
+if (pedidos == null ){
+    pedidos = []
+}
+
+let btn_finalizar = document.querySelector(".btn_finalizar")
+console.log(btn_finalizar)
+ btn_finalizar.addEventListener("click", () => gerarPedido(listaCarrinhoDeCompras,pedidos))
+
+
+
+
+
 if (document.readyState == "loading") {
     document.addEventListener("DOMContentLoaded", ready);
 } else {
@@ -28,7 +47,12 @@ function addProductToCard(event) {
 }
 
 function removeProduct(event) {
+    let itemId = event.target.parentElement.parentElement
     event.target.parentElement.parentElement.remove();
+
+    let index = listaCarrinhoDeCompras.findIndex( item => item.codigoProduto == itemId.id)
+        listaCarrinhoDeCompras.splice(index,1)
+        localStorage.setItem("carrinho",JSON.stringify(listaCarrinhoDeCompras))
     updateTotal();
 }
 

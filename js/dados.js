@@ -1,4 +1,4 @@
-const catalogoProdutos = [
+export const catalogoProdutos = [
     {
         codigoProduto: 1,
         nomeProduto:"Base e Corretivo Matte - Bege Claro",
@@ -6,7 +6,8 @@ const catalogoProdutos = [
         imagemProduto:"produtos/maquiagem/prod4/1.png",
         descricaoProduto:"Bege Claro 2 - 25g",
         categoria:"Maquiagem",
-        mostrarNaHome: false
+        mostrarNaHome: true,
+        mostrarNovidades: false
     },
     {
         codigoProduto: 2,
@@ -15,7 +16,8 @@ const catalogoProdutos = [
         imagemProduto:"produtos/maquiagem/prod5/Frasco-Transparente-Fosco-Base-Corretivo-Alta-Cobertura-Contorno-Iluminacao-Velvet-Skin-Bege-Medio.png",
         descricaoProduto:"Amêndoa - 25g",
         categoria:"Maquiagem",
-        mostrarNaHome: false
+        mostrarNaHome: true,
+        mostrarNovidades: false
     },
     {
         codigoProduto: 3,
@@ -24,7 +26,8 @@ const catalogoProdutos = [
         imagemProduto:"produtos/maquiagem/prod6/1.png",
         descricaoProduto:"Chocolate - 25g",
         categoria:"Maquiagem",
-        mostrarNaHome: false
+        mostrarNaHome: true,
+        mostrarNovidades: false
     },
     {
         codigoProduto: 4,
@@ -33,7 +36,8 @@ const catalogoProdutos = [
         imagemProduto:"produtos/maquiagem/prod7/1.png",
         descricaoProduto:"Cacau 2 - 25g",
         categoria:"Maquiagem",
-        mostrarNaHome: false
+        mostrarNaHome: false,
+        mostrarNovidades: false
     },
     {
         codigoProduto: 5,
@@ -42,7 +46,8 @@ const catalogoProdutos = [
         imagemProduto:"produtos/maquiagem/prod8/1.avif",
         descricaoProduto:"Rosa amarelado médio - 4g",
         categoria:"Maquiagem",
-        mostrarNaHome: false
+        mostrarNaHome: false,
+        mostrarNovidades: true
     },
     {
         codigoProduto: 6,
@@ -51,7 +56,8 @@ const catalogoProdutos = [
         imagemProduto:"produtos/maquiagem/prod9/1.avif",
         descricaoProduto:"Champanhe rosado claro - 4g",
         categoria:"Maquiagem",
-        mostrarNaHome: false
+        mostrarNaHome: false,
+        mostrarNovidades: true
     },
     {
         codigoProduto: 7,
@@ -60,7 +66,8 @@ const catalogoProdutos = [
         imagemProduto:"produtos/maquiagem/prod2/1.avif",
         descricaoProduto:"Bege pêssego com cintilante rosa",
         categoria:"Maquiagem",
-        mostrarNaHome: false
+        mostrarNaHome: false,
+        mostrarNovidades: false
     },
     {
         codigoProduto: 8,
@@ -69,7 +76,8 @@ const catalogoProdutos = [
         imagemProduto:"produtos/maquiagem/prod10/1.avif",
         descricaoProduto:"Cinza-claro com cintilante prateado",
         categoria:"Maquiagem",
-        mostrarNaHome: false
+        mostrarNaHome: false,
+        mostrarNovidades: false
     },
     {
         codigoProduto: 9,
@@ -78,7 +86,8 @@ const catalogoProdutos = [
         imagemProduto:"produtos/maquiagem/prod1/1.avif",
         descricaoProduto:"Matte Até 24 horas - 4ml",
         categoria:"Maquiagem",
-        mostrarNaHome: false
+        mostrarNaHome: false,
+        mostrarNovidades: true
     },
     {
         codigoProduto: 10,
@@ -87,7 +96,8 @@ const catalogoProdutos = [
         imagemProduto:"produtos/maquiagem/prod11/1.avif",
         descricaoProduto:"Rosa fluorescente brilhante - 5ml",
         categoria:"Maquiagem",
-        mostrarNaHome: false
+        mostrarNaHome: false,
+        mostrarNovidades: false
     },
     {
         codigoProduto: 11,
@@ -96,7 +106,8 @@ const catalogoProdutos = [
         imagemProduto:"produtos/maquiagem/prod12/1.avif",
         descricaoProduto:"Vermelho profundo - 5ml",
         categoria:"Maquiagem",
-        mostrarNaHome: false
+        mostrarNaHome: false,
+        mostrarNovidades: false
     },
     {
         codigoProduto: 12,
@@ -105,7 +116,8 @@ const catalogoProdutos = [
         imagemProduto:"produtos/maquiagem/prod13/1.avif",
         descricaoProduto:"Nude Acinzentado",
         categoria:"Maquiagem",
-        mostrarNaHome: false
+        mostrarNaHome: false,
+        mostrarNovidades: false
     },
     {
         codigoProduto: 13,
@@ -114,7 +126,8 @@ const catalogoProdutos = [
         imagemProduto:"produtos/dermocosmeticos/prod1/1.webp",
         descricaoProduto:"Protetor Solar Anthelios Airlicium + FPS80 - 40g",
         categoria:"Dermocosméticos",
-        mostrarNaHome: false
+        mostrarNaHome: false,
+        mostrarNovidades: false
     },
     {
         codigoProduto: 14,
@@ -123,7 +136,8 @@ const catalogoProdutos = [
         imagemProduto:"produtos/dermocosmeticos/prod2/1.webp",
         descricaoProduto:"Loção Corporal Hidratante - 473ml",
         categoria:"Dermocosméticos",
-        mostrarNaHome: false
+        mostrarNaHome: false,
+        mostrarNovidades: true
     },
     {
         codigoProduto: 15,
@@ -132,7 +146,8 @@ const catalogoProdutos = [
         imagemProduto:"produtos/dermocosmeticos/prod3/1.webp",
         descricaoProduto:"Sérum Antirrugas - Retinol B3 - 15ml",
         categoria:"Dermocosméticos",
-        mostrarNaHome: false
+        mostrarNaHome: false,
+        mostrarNovidades: false
     },
     {
         codigoProduto: 16,
@@ -141,7 +156,8 @@ const catalogoProdutos = [
         imagemProduto:"produtos/dermocosmeticos/prod4/1.webp",
         descricaoProduto:"Dual Sérum - 30ml",
         categoria:"Dermocosméticos",
-        mostrarNaHome: false
+        mostrarNaHome: false,
+        mostrarNovidades: false
     },
     {
         codigoProduto: 17,
@@ -150,7 +166,8 @@ const catalogoProdutos = [
         imagemProduto:"produtos/perfumaria/prod1/1.webp",
         descricaoProduto:"Deo colônia - 100ml",
         categoria:"Perfumes",
-        mostrarNaHome: false
+        mostrarNaHome: false,
+        mostrarNovidades: true
     },
     {
         codigoProduto: 18,
@@ -159,7 +176,8 @@ const catalogoProdutos = [
         imagemProduto:"produtos/perfumaria/prod2/1.2.webp",
         descricaoProduto:"Desodorante Colônia - 100ml",
         categoria:"Perfumes",
-        mostrarNaHome: false
+        mostrarNaHome: false,
+        mostrarNovidades: false
     },
     {
         codigoProduto: 19,
@@ -168,7 +186,8 @@ const catalogoProdutos = [
         imagemProduto:"produtos/perfumaria/prod3/1.webp",
         descricaoProduto:"Desodorante Colônia  - 100ml",
         categoria:"Perfumes",
-        mostrarNaHome: false
+        mostrarNaHome: false,
+        mostrarNovidades: false
     },
     {
         codigoProduto: 20,
@@ -177,7 +196,8 @@ const catalogoProdutos = [
         imagemProduto:"produtos/perfumaria/prod4/1.webp",
         descricaoProduto:"Desodorante Colônia - 75ml",
         categoria:"Perfumes",
-        mostrarNaHome: false
+        mostrarNaHome: false,
+        mostrarNovidades: true
     },
     {
         codigoProduto: 21,
@@ -186,7 +206,8 @@ const catalogoProdutos = [
         imagemProduto:"produtos/perfumaria/prod5/1.2.webp",
         descricaoProduto:"Desodorante Colônia  - 100ml",
         categoria:"Perfumes",
-        mostrarNaHome: false
+        mostrarNaHome: false,
+        mostrarNovidades: false
     },
     {
         codigoProduto: 22,
@@ -195,7 +216,8 @@ const catalogoProdutos = [
         imagemProduto:"produtos/perfumaria/prod6/1.webp",
         descricaoProduto:"Eau de parfum - 100ml",
         categoria:"Perfumes",
-        mostrarNaHome: false
+        mostrarNaHome: false,
+        mostrarNovidades: true
     },
     {
         codigoProduto: 23,
@@ -204,7 +226,8 @@ const catalogoProdutos = [
         imagemProduto:"produtos/perfumaria/prod7/1.webp",
         descricaoProduto:"Eau de Parfum - 80ml",
         categoria:"Perfumes",
-        mostrarNaHome: false
+        mostrarNaHome: false,
+        mostrarNovidades: false
     },
     {
         codigoProduto: 24,
@@ -213,47 +236,8 @@ const catalogoProdutos = [
         imagemProduto:"produtos/perfumaria/prod8/1.webp",
         descricaoProduto:"Eau de Parfum - 30ml",
         categoria:"Perfumes",
-        mostrarNaHome: false
+        mostrarNaHome: false,
+        mostrarNovidades: true
     },
     
 ]
-
-inicializarloja = () => {
-    let containerProdutos = document.getElementById('product');
-    containerProdutos.innerHTML = ''; 
-
-    catalogoProdutos.map((val) => {
-        const produtoHtml = `
-            <section class="products_container">
-                <div class="product"> 
-                    <img src="${val.imagemProduto}">
-                    <h1>${val.nomeProduto}</h1>
-                    <p ${val.descricaoProduto}>Bege Claro 2 - 25g</p>
-                    <p ${val.preco}>R$ 69,90</p>
-                    <a key="${val.codigoProduto}" href="#">
-                        <button type="button" class="botao">
-                            <p>Adicionar ao Carrinho</p>
-                        </button>
-                    </a>
-                </div>
-            </section>
-        `;
-        containerProdutos.innerHTML += produtoHtml; 
-    });
-}
-
-// atualizarCarrinho = () => {
-//     console.log(items);
-// }
-
-// var links = document.getElementsByTagName("a");
-
-// for (var i = 0; i < links.length; i++){
-//     links[i].addEventListener("click", function(){
-//         let key = this.getAttribute('key');
-//         items[key].quantidade++;
-//         atualizarCarrinho();
-//     })
-// }
-
-// inicializarloja();
