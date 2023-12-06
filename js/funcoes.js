@@ -84,7 +84,7 @@ export function carregaProduto(item){
     
     <div class="right-side">
         <div class="content">
-            <h3>Batom Liquido Love Me MAC Nude Acinzentado </h3>
+            <h3>${item.nomeProduto}</h3>
 
             <div class="estrelas">
                 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -104,28 +104,22 @@ export function carregaProduto(item){
             </div>
 
             <div class="prices">
-                <span class="price">R$ 179,00</span>
+                <span class="price">${item.preco}</span>
                 <span class="off">OU 3X DE R$10,89</span>
             </div>
 
-            <h2> Para um delineado perfeito, delineador para olhos com pincel ultrafino.(exemplo)</h2>
+            <h2> ${item.descricaoProduto}</h2>
             <a href="#tatata"><p class="italico">QUERO SABER MAIS</p></a>
 
             <div class="options">
                 <div class="amount">
-                    <div class="minus">
-                        <img src="" alt="">
-                    </div>
-                    <span id="quantidade">1</span>
-                    <div class="plus">
-                    </div>
+                    <input type="number" id="quantidade">
                 </div>
 
                 <button class="button addCart"> <a href=""></a> <img src="icons/carrinho.svg" alt="">Adicionar ao carrinho</button>
             </div>
            
         </div>
-       
 </div>`
     insertProduto.innerHTML = html
 }
@@ -168,12 +162,12 @@ export function listCarrinhoCompras (ListaCarrinhoDeCompras,carrinho){
     ListaCarrinhoDeCompras.forEach(item => {
        
         let html =`<div class="cart-item" id="${item.codigoProduto}">
-        <img src="produtos/dermocosmeticos/prod1/1.webp" alt="Produto 1">
+        <img src="${item.imagemProduto}" alt="Produto 1">
 
         <div class="item-details">
-            <p class="titulo_product">La Roche Posey</p>
-            <p class="description_product">Protetor Solar Anthelios Airlicium + FPS80 - 40g</p>
-            <p class="price_cart">R$ 80,95</p>
+            <p class="titulo_product">${item.nomeProduto}</p>
+            <p class="description_product">${item.descricaoProduto}</p>
+            <p class="price_cart">${item.preco}</p>
         </div>
 
         <div class="item-actions">
