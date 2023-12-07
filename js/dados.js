@@ -8,7 +8,8 @@ export const catalogoProdutos = [
         descricaoProduto:"Bege Claro 2 - 25g",
         categoria:"Maquiagem",
         mostrarNaHome: true,
-        mostrarNovidades: false
+        mostrarNovidades: false,
+        descricaoadd:" A Base e Corretivo Matte - Bege Claro é um produto inovador que combina os benefícios de uma base e de um corretivo em um único item, proporcionando uma cobertura impecável e um acabamento matte de longa duração. Desenvolvida para atender às necessidades da pele, esta fórmula multifuncional é especialmente formulada para proporcionar um visual natural, uniforme e radiante."
     },
     {
         codigoProduto: 2,
@@ -19,7 +20,8 @@ export const catalogoProdutos = [
         descricaoProduto:"Amêndoa - 25g",
         categoria:"Maquiagem",
         mostrarNaHome: true,
-        mostrarNovidades: false
+        mostrarNovidades: false,
+        descricaoadd:"A Base e Corretivo Matte - Amêndoa é um produto revolucionário que combina as propriedades de uma base e de um corretivo em um único produto, oferecendo uma cobertura excepcional e um acabamento matte duradouro. Projetada para atender às demandas variadas da pele, esta fórmula inovadora proporciona uma aparência natural e uniforme, enquanto cuida da sua pele."
     },
     {
         codigoProduto: 3,
@@ -30,7 +32,8 @@ export const catalogoProdutos = [
         descricaoProduto:"Chocolate - 25g",
         categoria:"Maquiagem",
         mostrarNaHome: true,
-        mostrarNovidades: false
+        mostrarNovidades: false,
+        descricaoadd:"A Base e Corretivo Matte - Chocolate é uma inovação na categoria de maquiagem, combinando as propriedades de uma base e de um corretivo em um único produto. Desenvolvida para proporcionar uma cobertura excepcional e um acabamento matte duradouro, esta fórmula versátil é perfeita para realçar a beleza natural da pele."
     },
     {
         codigoProduto: 4,
@@ -41,7 +44,8 @@ export const catalogoProdutos = [
         descricaoProduto:"Cacau 2 - 25g",
         categoria:"Maquiagem",
         mostrarNaHome: false,
-        mostrarNovidades: false
+        mostrarNovidades: false,
+        descricaoadd:"A Base e Corretivo Matte - Cacau é um produto inovador que une as propriedades fundamentais de uma base e de um corretivo, proporcionando uma cobertura impecável e um acabamento matte duradouro. Desenvolvida para atender às diversas tonalidades de pele, esta fórmula versátil oferece um visual natural e radiante, ao mesmo tempo que cuida da sua pele."
     },
     {
         codigoProduto: 5,
@@ -52,7 +56,8 @@ export const catalogoProdutos = [
         descricaoProduto:"Rosa amarelado médio - 4g",
         categoria:"Maquiagem",
         mostrarNaHome: false,
-        mostrarNovidades: true
+        mostrarNovidades: true,
+        descricaoadd:"O Blush Extra Dimension MAC - Rosa é uma expressão da sofisticação e qualidade que a MAC Cosmetics é conhecida por proporcionar em seus produtos. Este blush icônico oferece uma tonalidade rosa vibrante e uma textura extraordinária para realçar e esculpir as maçãs do rosto, proporcionando um brilho dimensional sutil e radiante."
     },
     {
         codigoProduto: 6,
@@ -63,7 +68,8 @@ export const catalogoProdutos = [
         descricaoProduto:"Champanhe rosado claro - 4g",
         categoria:"Maquiagem",
         mostrarNaHome: false,
-        mostrarNovidades: true
+        mostrarNovidades: true,
+        descricaoadd:"O Blush Extra Dimension MAC - Champanhe é um tesouro na paleta de produtos de maquiagem da MAC Cosmetics, oferecendo uma tonalidade suave de champanhe que ilumina e esculpe as maçãs do rosto. Com uma fórmula inovadora e uma textura luxuosa, este blush proporciona um brilho dimensional e um toque de elegância a qualquer look."
     },
     {
         codigoProduto: 7,
@@ -74,7 +80,8 @@ export const catalogoProdutos = [
         descricaoProduto:"Bege pêssego com cintilante rosa",
         categoria:"Maquiagem",
         mostrarNaHome: false,
-        mostrarNovidades: false
+        mostrarNovidades: false,
+        descricaoadd:"A Sombra Para Olhos Dazzleshadow MAC - Bege é uma obra-prima de maquiagem que combina pigmentação rica, brilho deslumbrante e uma textura suave para criar looks deslumbrantes e expressivos. Esta sombra em tom de bege oferece versatilidade e elegância, sendo um complemento perfeito para qualquer estilo de maquiagem."
     },
     {
         codigoProduto: 8,
@@ -85,7 +92,8 @@ export const catalogoProdutos = [
         descricaoProduto:"Cinza-claro com cintilante prateado",
         categoria:"Maquiagem",
         mostrarNaHome: false,
-        mostrarNovidades: false
+        mostrarNovidades: false,
+        descricaoadd:"A Sombra Para Olhos Dazzleshadow MAC - Cinza é uma expressão de elegância e modernidade, combinando a riqueza do tom cinza com a deslumbrante fórmula Dazzleshadow da MAC. Essa sombra oferece um brilho sutil e sofisticado, ideal para criar looks versáteis e impactantes.",
     },
     {
         codigoProduto: 9,
@@ -96,7 +104,8 @@ export const catalogoProdutos = [
         descricaoProduto:"Matte Até 24 horas - 4ml",
         categoria:"Maquiagem",
         mostrarNaHome: false,
-        mostrarNovidades: true
+        mostrarNovidades: true,
+        descricaoadd:"O Batom Líquido MAC Locked Kiss INK é uma afirmação ousada de estilo e personalidade. Com uma fórmula inovadora e uma tonalidade única, este batom líquido oferece cor intensa, acabamento matte e durabilidade excepcional, tornando-se um item essencial para quem busca expressar sua individualidade com elegância."
     },
     {
         codigoProduto: 10,
@@ -107,7 +116,8 @@ export const catalogoProdutos = [
         descricaoProduto:"Rosa fluorescente brilhante - 5ml",
         categoria:"Maquiagem",
         mostrarNaHome: false,
-        mostrarNovidades: false
+        mostrarNovidades: false,
+        descricaoadd:"O Batom Líquido MAC Powder Kiss é uma revolução na experiência do batom, combinando a suavidade do pó com a intensidade do pigmento líquido. Essa fórmula inovadora oferece uma sensação leve e aveludada, proporcionando lábios matificados com uma cor rica e duradoura."
     },
     {
         codigoProduto: 11,
@@ -118,7 +128,8 @@ export const catalogoProdutos = [
         descricaoProduto:"Vermelho profundo - 5ml",
         categoria:"Maquiagem",
         mostrarNaHome: false,
-        mostrarNovidades: false
+        mostrarNovidades: false,
+        descricaoadd:"O Batom Líquido Retro Matte MAC é uma fusão perfeita entre a elegância retrô e a modernidade, proporcionando lábios intensamente pigmentados com um acabamento matte clássico. Essa fórmula líquida combina cor vibrante, durabilidade excepcional e uma sensação leve para uma experiência de maquiagem memorável."
     },
     {
         codigoProduto: 12,
@@ -129,7 +140,8 @@ export const catalogoProdutos = [
         descricaoProduto:"Nude Acinzentado",
         categoria:"Maquiagem",
         mostrarNaHome: false,
-        mostrarNovidades: false
+        mostrarNovidades: false,
+        descricaoadd:"O Batom Líquido Love Me MAC é um convite ao romance e à autoexpressão, oferecendo uma experiência de batom líquido única. Com uma fórmula inovadora, cores apaixonantes e uma textura suave, este batom proporciona lábios irresistíveis, expressando o amor próprio com cada aplicação."
     },
     {
         codigoProduto: 13,
@@ -140,7 +152,8 @@ export const catalogoProdutos = [
         descricaoProduto:"Protetor Solar Anthelios Airlicium + FPS80 - 40g",
         categoria:"Dermocosméticos",
         mostrarNaHome: false,
-        mostrarNovidades: false
+        mostrarNovidades: false,
+        descricaoadd:"O protetor solar da La Roche-Posay é um produto dedicado à proteção eficaz contra os raios solares, garantindo cuidado e segurança para a sua pele. Com uma abordagem focada na saúde da pele, este protetor solar oferece uma série de benefícios para garantir que sua pele esteja protegida dos danos causados pela exposição ao sol."
     },
     {
         codigoProduto: 14,
@@ -151,7 +164,8 @@ export const catalogoProdutos = [
         descricaoProduto:"Loção Corporal Hidratante - 473ml",
         categoria:"Dermocosméticos",
         mostrarNaHome: false,
-        mostrarNovidades: true
+        mostrarNovidades: true,
+        descricaoadd:"O CeraVe Hidratante é um produto projetado para proporcionar uma hidratação intensa e duradoura para a pele. Desenvolvido com a expertise dos dermatologistas, a fórmula única do CeraVe incorpora ingredientes essenciais para manter a barreira cutânea saudável e reter a umidade natural da pele."
     },
     {
         codigoProduto: 15,
@@ -162,7 +176,8 @@ export const catalogoProdutos = [
         descricaoProduto:"Sérum Antirrugas - Retinol B3 - 15ml",
         categoria:"Dermocosméticos",
         mostrarNaHome: false,
-        mostrarNovidades: false
+        mostrarNovidades: false,
+        descricaoadd:"A La Roche-Posay oferece uma variedade de séruns para atender às necessidades específicas da pele. Cada sérum é formulado com ingredientes cuidadosamente selecionados para proporcionar benefícios específicos, como hidratação, suavização de rugas, clareamento da pele ou redução da vermelhidão."
     },
     {
         codigoProduto: 16,
@@ -173,7 +188,8 @@ export const catalogoProdutos = [
         descricaoProduto:"Dual Sérum - 30ml",
         categoria:"Dermocosméticos",
         mostrarNaHome: false,
-        mostrarNovidades: false
+        mostrarNovidades: false,
+        descricaoadd:"O Sérum Facial Eucerin Anti-Pigment é um produto desenvolvido pela marca Eucerin para abordar as preocupações relacionadas à hiperpigmentação da pele. Com uma fórmula especializada, este sérum visa atenuar manchas escuras, descolorações e irregularidades no tom da pele, proporcionando um aspecto mais uniforme e luminoso."
     },
     {
         codigoProduto: 17,
@@ -184,7 +200,8 @@ export const catalogoProdutos = [
         descricaoProduto:"Deo colônia - 100ml",
         categoria:"Perfumes",
         mostrarNaHome: false,
-        mostrarNovidades: true
+        mostrarNovidades: true,
+        descricaoadd:"A Colônia Desodorante Aurien Rubra buscou inspiração na alta joalheria internacional para traduzir a feminilidade do ouro rosado nesta fragrância incomparável. Uma beleza única que capta a nobreza do ouro, o brilho da prata e o calor do cobre em uma mistura simplesmente deslumbrante. O lado mais feminino do ouro rosado, fascinante e encantador ao alcance das suas mãos. Uma fragrância floral que carrega todo o poder das pétalas de magnólia."
     },
     {
         codigoProduto: 18,
@@ -195,7 +212,8 @@ export const catalogoProdutos = [
         descricaoProduto:"Desodorante Colônia - 100ml",
         categoria:"Perfumes",
         mostrarNaHome: false,
-        mostrarNovidades: false
+        mostrarNovidades: false,
+        descricaoadd:"Coffee Woman Seduction é uma fragrância que faz parte da linha Coffee, conhecida por suas composições que exploram o aroma envolvente e estimulante do café. Este perfume é especialmente projetado para mulheres que buscam uma experiência olfativa cativante e sedutora."
     },
     {
         codigoProduto: 19,
@@ -206,7 +224,8 @@ export const catalogoProdutos = [
         descricaoProduto:"Desodorante Colônia  - 100ml",
         categoria:"Perfumes",
         mostrarNaHome: false,
-        mostrarNovidades: false
+        mostrarNovidades: false,
+        descricaoadd:"Glamour Just Shine é uma fragrância que sugere brilho, radiância e uma aura de glamour. Este perfume é projetado para mulheres que buscam uma experiência olfativa que capture a luminosidade e a sofisticação, evocando um toque de brilho em sua jornada diária."
     },
     {
         codigoProduto: 20,
@@ -217,7 +236,8 @@ export const catalogoProdutos = [
         descricaoProduto:"Desodorante Colônia - 75ml",
         categoria:"Perfumes",
         mostrarNaHome: false,
-        mostrarNovidades: true
+        mostrarNovidades: true,
+        descricaoadd:"Boticollection Dreams é uma fragrância da linha de perfumes Boticollection, que é conhecida por oferecer uma variedade de fragrâncias com diferentes temáticas olfativas. Este perfume em particular, Dreams, sugere uma experiência sensorial que evoca sonhos, fantasias e uma jornada olfativa única."
     },
     {
         codigoProduto: 21,
@@ -228,7 +248,8 @@ export const catalogoProdutos = [
         descricaoProduto:"Desodorante Colônia  - 100ml",
         categoria:"Perfumes",
         mostrarNaHome: false,
-        mostrarNovidades: false
+        mostrarNovidades: false,
+        descricaoadd:"Coffee Woman Duo é um Amadeirado Gourmand que prova que os opostos se atraem. Mistura a delicadeza e cremosidade com o contraste do amargor do café."
     },
     {
         codigoProduto: 22,
@@ -239,7 +260,8 @@ export const catalogoProdutos = [
         descricaoProduto:"Eau de parfum - 100ml",
         categoria:"Perfumes",
         mostrarNaHome: false,
-        mostrarNovidades: true
+        mostrarNovidades: true,
+        descricaoadd:"Lancôme La Vie Est Belle Soleil Cristal é uma variação da icônica fragrância La Vie Est Belle da Lancôme, que é conhecida por suas notas florais e frutadas, bem como por seu frasco distintivo. O Soleil Cristal é uma interpretação que adiciona uma dimensão solar e luminosa à experiência olfativa original."
     },
     {
         codigoProduto: 23,
@@ -250,7 +272,8 @@ export const catalogoProdutos = [
         descricaoProduto:"Eau de Parfum - 80ml",
         categoria:"Perfumes",
         mostrarNaHome: false,
-        mostrarNovidades: false
+        mostrarNovidades: false,
+        descricaoadd:"Good Girl Blush é uma variação da fragrância icônica Good Girl da Carolina Herrera. Conhecida por seu frasco em formato de salto alto e por suas notas contrastantes, a Good Girl Blush provavelmente oferece uma interpretação única e cativante da fragrância original, adicionando novos elementos olfativos e visuais."
     },
     {
         codigoProduto: 24,
@@ -261,7 +284,8 @@ export const catalogoProdutos = [
         descricaoProduto:"Eau de Parfum - 30ml",
         categoria:"Perfumes",
         mostrarNaHome: false,
-        mostrarNovidades: true
+        mostrarNovidades: true,
+        descricaoadd:"Dior J'adore é uma linha de fragrâncias da casa de moda Dior, conhecida por suas composições elegantes e femininas. O Dior J'adore Parfum é uma concentração mais intensa da fragrância, proporcionando uma experiência olfativa ainda mais rica e duradoura em comparação com as versões mais leves, como a Eau de Parfum ou a Eau de Toilette."
     },
     
 ]
