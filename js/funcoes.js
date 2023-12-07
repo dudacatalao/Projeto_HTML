@@ -61,24 +61,6 @@ export function carregaProduto(item){
             <div class="select-image">
                 <img src="${item.imagemProduto}" alt="">
             </div>
-
-            <div class="thumbnails">
-                <div class="thumbnail">
-                    <img src="produtos/dermocosmeticos/prod1/2.webp" alt="">
-                </div>
-
-                <div class="thumbnail">
-                    <img src="produtos/dermocosmeticos/prod2/1.webp" alt="">
-                </div>
-
-                <div class="thumbnail">
-                    <img src="produtos/dermocosmeticos/prod2/2.webp" alt="">
-                </div>
-
-                <div class="thumbnail">
-                    <img src="produtos/dermocosmeticos/prod1/1.webp" alt="">
-                </div>
-            </div>
         </dis>
     </div>
     
@@ -105,7 +87,7 @@ export function carregaProduto(item){
 
             <div class="prices">
                 <span class="price">${item.preco}</span>
-                <span class="off">OU 3X DE R$10,89</span>
+                <span class="off">OU 3X DE ${item.parcelamento}</span>
             </div>
 
             <h2> ${item.descricaoProduto}</h2>

@@ -222,7 +222,8 @@ export const catalogoProdutos = [
     {
         codigoProduto: 21,
         nomeProduto:"Coffee Woman Duo",
-        preco: 99.99,
+        preco: "R$99,99",
+        parcelamento: "R$33,33",
         imagemProduto:"produtos/perfumaria/prod5/1.2.webp",
         descricaoProduto:"Desodorante Colônia  - 100ml",
         categoria:"Perfumes",
@@ -232,7 +233,8 @@ export const catalogoProdutos = [
     {
         codigoProduto: 22,
         nomeProduto:"Lancôme la vie est belle soleil cristal",
-        preco: 569.90,
+        preco: "R$569,90",
+        parcelamento:"R$189,96",
         imagemProduto:"produtos/perfumaria/prod6/1.webp",
         descricaoProduto:"Eau de parfum - 100ml",
         categoria:"Perfumes",
@@ -242,7 +244,8 @@ export const catalogoProdutos = [
     {
         codigoProduto: 23,
         nomeProduto:"Good Girl Blush Carolina Herrera",
-        preco: 719.90,
+        preco: "R$719,90",
+        parcelamento: "R$239,96",
         imagemProduto:"produtos/perfumaria/prod7/1.webp",
         descricaoProduto:"Eau de Parfum - 80ml",
         categoria:"Perfumes",
@@ -252,7 +255,8 @@ export const catalogoProdutos = [
     {
         codigoProduto: 24,
         nomeProduto:"Dior J adore Parfum",
-        preco: 479.99,
+        preco: "R$479,99",
+        parcelamento: "R$159,99",
         imagemProduto:"produtos/perfumaria/prod8/1.webp",
         descricaoProduto:"Eau de Parfum - 30ml",
         categoria:"Perfumes",
