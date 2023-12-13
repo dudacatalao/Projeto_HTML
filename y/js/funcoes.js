@@ -206,7 +206,7 @@ export function gerarPedido(listaCarrinhoDeCompras,pedidos){
     localStorage.setItem("pedidos",JSON.stringify(pedidos))
     localStorage.removeItem('carrinho')
     localStorage.removeItem('IdProd')
-    alert("compra realizada com sucesso")
+    alert("Pedido realizado com sucesso, preencha as informações a seguir para finalizar a compra")
     location.reload()
 
     }

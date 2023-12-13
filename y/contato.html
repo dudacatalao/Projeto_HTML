@@ -201,8 +201,6 @@
                         </div>
             
                     </fieldset>
-    
-    
                 </form>
             </div>
         </section>
@@ -210,33 +208,34 @@
         <section class="contatos-container">
             
             <div class="box3" id="box3">
-                <label for="contact_reason" id="link">Categoria da Mensagem:</label>
-                <select name="contact_reason" id="contact_reason" required="" class="inputuser">
-                <option value="#" selected="" ></option>
-                <option value="1">Informações sobre produtos</option>
-                <option value="2">Pedidos e acompanhamento de pedidos</option><option value="1">Informações sobre produtos</option>
-                <option value="3">Dúvidas sobre o site</option>
-                <option value="4">Problemas com produtos</option>
-                <option value="5">Dúvidas sobre produtos</option>
-                <option value="6">Questões financeiras</option>
-                <option value="7">Dúvidas sobre o site</option>
-                <option value="8">Privacidade de dados</option>
-                <option value="9">Outros</option>
-                </select>
+                <form action="#" >
+                    <label for="contact_reason" id="link">Categoria da Mensagem</label>
+                    <select name="contact_reason" id="contact_reason" required="" class="inputuser">
+                    <option value="#" selected="" ></option>
+                    <option value="1">Informações sobre produtos</option>
+                    <option value="2">Pedidos e acompanhamento de pedidos</option><option value="1">Informações sobre produtos</option>
+                    <option value="3">Dúvidas sobre o site</option>
+                    <option value="4">Problemas com produtos</option>
+                    <option value="5">Dúvidas sobre produtos</option>
+                    <option value="6">Questões financeiras</option>
+                    <option value="7">Dúvidas sobre o site</option>
+                    <option value="8">Privacidade de dados</option>
+                    <option value="9">Outros</option>
+                    </select>
 
-                <div class="inputbox">
-                    <input type="text" name="assunto" id="assunto" class="inputuser" required>
-                    <label for="assunto" class="labelinput">Digite o assunto</label>
-                </div>
+                    <div class="inputbox">
+                        <input type="text" name="assunto" id="assunto" class="inputuser" required>
+                        <label for="assunto" class="labelinput">Digite o assunto</label>
+                    </div>
 
-                
-                <div class="inputbox">
-                    <label class="mensagembox" for="mensagem"> Digite sua mensagem: </label>
-                    <textarea name="mensagem" id="mensagem" cols="12" rows="6"></textarea>
-                </div>
-                
-                
-                <button type="submit" id="submit">Enviar formulário</button>
+                    
+                    <div class="inputbox">
+                        <label class="mensagembox" for="mensagem"> Digite sua mensagem: </label>
+                        <textarea name="mensagem" id="mensagem" cols="12" rows="6"></textarea>
+                    </div>
+                    
+                    <input type="submit" id="submit" placeholder="Enviar">
+                </form> 
             </div>
 
         </section>

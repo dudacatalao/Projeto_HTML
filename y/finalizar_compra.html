@@ -10,6 +10,7 @@
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="js/menu.js" defer></script>
     <script type="module" src="js/novidades.js" defer></script>
+    <script type="module" src="js/finalizar.js"></script>
 </head>
 
 <body>
@@ -173,58 +174,83 @@
         <div class="box">
             <form action="">
                 <fieldset>
-                    <legend><b>Fórmulário de Clientes</b></legend>
-                    <br>
-                    <div class="inputBox">
-                        <input type="text" name="nome" id="nome" class="inputUser" required>
-                        <label for="nome" class="labelInput">Nome completo</label>
+                    <div class="main-login">
+                        <div class="right-login">
+                            <div class="card-login" id="form">
+                                <h1>Finalize sua compra</h1>
+                                <div class="textfield">
+                                    <label for="usuario">Nome Completo</label>
+                                    <input type="text" name="usuario" id="usuario-cad" placeholder="Nome Completo">
+                                </div>
+                                <div class="textfield">
+                                    <label for="senha">Email</label>
+                                    <input type="email" name="senha" id="senha-cad" placeholder="Email">
+                                </div>
+                                <div class="textfield">
+                                    <label for="senha">Celular</label>
+                                    <input type="tel" name="senha" id="cel-cad" placeholder="Celular">
+                                </div>
+                                <div class="textfield">
+                                    <label for="contact_reason" id="link">Estado</label>
+                                    <select name="contact_reason" id="contact_reason" required="" class="inputuser">
+                                    <option value="#" selected="" ></option>
+                                    <option value="1" class="op">Acre - AC</option>
+                                    <option value="2" class="op">Alagoas - AL</option>
+                                    <option value="3" class="op">Amapá - AP</option>
+                                    <option value="4" class="op">Amazonas - AM</option>
+                                    <option value="5" class="op">Bahia - BA</option>
+                                    <option value="6" class="op">Ceará - CE</option>
+                                    <option value="7" class="op">Distrito Federal - DF</option>
+                                    <option value="8" class="op">Espírito Santo - ES</option>
+                                    <option value="9" class="op">Goiás - GO</option>
+                                    <option value="10" class="op">Maranhão - MA</option>
+                                    <option value="11" class="op">Mato Grosso - MT</option>
+                                    <option value="12" class="op">Mato Grosso do Sul - MS</option>
+                                    <option value="13" class="op">Minas Gerais - MG</option>
+                                    <option value="14" class="op">Pará - PA</option>
+                                    <option value="15" class="op">Paraiba - PB</option>
+                                    <option value="16" class="op">Paraná - PR</option>
+                                    <option value="17" class="op">Pernambuco - PE</option>
+                                    <option value="18" class="op">Piauí - PI</option>
+                                    <option value="19" class="op">Rio de Janeiro - RJ</option>
+                                    <option value="20" class="op">Rio Grande do Norte - RN</option>
+                                    <option value="21" class="op">Rio Grande do Sul - RS</option>
+                                    <option value="22" class="op">Rondônia - RO</option>
+                                    <option value="23" class="op">Roraima - RR</option>
+                                    <option value="24" class="op">Santa Catarina - SC</option>
+                                    <option value="25" class="op">São Paulo - SP</option>
+                                    <option value="26" class="op">Sergipe - SE</option>
+                                    <option value="27" class="op">Tocantins - TO</option>
+                                    </select>
+                                </div>
+
+                                <div class="textfield">
+                                    <label for="senha">Rua</label>
+                                    <input type="text" name="senha" id="senha-cad" placeholder="Rua">
+                                </div>
+                                <div class="textfield">
+                                    <label for="senha">Bairro</label>
+                                    <input type="text" name="senha" id="confirm-cad" placeholder="Bairro">
+                                </div>
+                                <div class="textfield">
+                                    <label for="senha">Cidade</label>
+                                    <input type="text" name="senha" id="confirm-cad" placeholder="Cidade">
+                                </div>
+            
+                                <input type="submit" class="btn-login" placeholder="Enviar" id="teste">
+            
+                        
+
+                            </div>
+                        </div>
                     </div>
-                    <br><br>
-                    <div class="inputBox">
-                        <input type="text" name="email" id="email" class="inputUser" required>
-                        <label for="email" class="labelInput">Email</label>
-                    </div>
-                    <br><br>
-                    <div class="inputBox">
-                        <input type="tel" name="telefone" id="telefone" class="inputUser" required>
-                        <label for="telefone" class="labelInput">Telefone</label>
-                    </div>
-                    <p>Sexo:</p>
-                    <input type="radio" id="feminino" name="genero" value="feminino" required>
-                    <label for="feminino">Feminino</label>
-                    <br>
-                    <input type="radio" id="masculino" name="genero" value="masculino" required>
-                    <label for="masculino">Masculino</label>
-                    <br>
-                    <input type="radio" id="outro" name="genero" value="outro" required>
-                    <label for="outro">Outro</label>
-                    <br><br>
-                    <label for="data_nascimento"><b>Data de Nascimento:</b></label>
-                    <input type="date" name="data_nascimento" id="data_nascimento" required>
-                    <br><br><br>
-                    <div class="inputBox">
-                        <input type="text" name="cidade" id="cidade" class="inputUser" required>
-                        <label for="cidade" class="labelInput">Cidade</label>
-                    </div>
-                    <br><br>
-                    <div class="inputBox">
-                        <input type="text" name="estado" id="estado" class="inputUser" required>
-                        <label for="estado" class="labelInput">Estado</label>
-                    </div>
-                    <br><br>
-                    <div class="inputBox">
-                        <input type="text" name="endereco" id="endereco" class="inputUser" required>
-                        <label for="endereco" class="labelInput">Endereço</label>
-                    </div>
-                    <br><br>
-                    <input type="submit" name="submit" id="submit">
                 </fieldset>
             </form>
         </div>
        
     </main>
 
-    <!-- <footer class="footer">
+    <footer class="footer">
         <div class="lado1">
             <a href="index.html">
                 <img src="logo/logo_branca.png" alt="">
@@ -277,6 +303,6 @@
                 </div>
             </div>
             
-    </footer> -->
+    </footer>
 </body>
 </html>
